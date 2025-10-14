@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Bestad Hospital</title>
+    <title>My Bestad Online Medical Consultations</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <div class="container mt-5">
         <div class="text-center">
-            <h1>My Bestad Hospital Management System</h1>
-            <p class="lead">مستشفى بيستاد - نظام إدارة المستشفى</p>
+            <h1>My Bestad Online Medical Consultations System</h1>
+            <p class="lead">الاستشارات الطبية عبر الإنترنت - نظام إدارة الاستشارات الطبية</p>
             <div class="alert alert-info mt-4">
                 <h4>Setup Required</h4>
                 <p>Please configure your Laravel environment:</p>

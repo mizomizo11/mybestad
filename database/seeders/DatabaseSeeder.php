@@ -15,6 +15,9 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        // Seed services (opt-in)
+        $this->call(ServiceSeeder::class);
+        
         // Create sample doctors
         $doctors = [
             ['name' => 'د. أحمد محمد', 'specialization' => 'طب القلب'],

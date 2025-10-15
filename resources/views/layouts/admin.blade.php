@@ -57,6 +57,12 @@
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link {{ request()->routeIs('admin.services.*') ? 'active' : '' }}" 
+                               href="{{ route('admin.services.index') }}">
+                                <i class="fas fa-concierge-bell"></i> إدارة الخدمات
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link {{ request()->routeIs('admin.reports.*') ? 'active' : '' }}" 
                                href="{{ route('admin.reports.index') }}">
                                 <i class="fas fa-chart-bar"></i> التقارير الشهرية

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Review;
+use App\Models\Service;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -13,6 +14,10 @@ class HomeController extends Controller
             ->orderBy('created_at', 'desc')
             ->get();
         
-        return view('home', compact('reviews'));
+        $services = Service::where('is_active', true)
+            ->orderBy('sort_order')
+            ->get();
+        
+        return view('home', compact('reviews', 'services'));
     }
 }

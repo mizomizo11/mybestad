@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
-@section('title', 'الرئيسية - مستشفى بيستاد')
+@section('title', 'الرئيسية - الاستشارات الطبية عبر الإنترنت')
 
 @section('content')
 <div class="container">
     <!-- Hero Section -->
     <div class="jumbotron bg-light p-5 rounded-3 mb-5">
-        <h1 class="display-4">مرحباً بكم في مستشفى بيستاد</h1>
+        <h1 class="display-4">مرحباً بكم في الاستشارات الطبية عبر الإنترنت</h1>
         <p class="lead">نقدم أفضل الخدمات الطبية والاستشارات الصحية</p>
         <hr class="my-4">
         <p>فريقنا من الأطباء المتخصصين جاهز لخدمتكم على مدار الساعة</p>

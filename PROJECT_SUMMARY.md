@@ -1,8 +1,8 @@
-# Project Summary: My Bestad Hospital Management System
+# Project Summary: My Bestad Online Medical Consultations System
 
 ## 🎯 Mission Accomplished
 
-Successfully implemented a complete Laravel-based hospital management system with two major features:
+Successfully implemented a complete Laravel-based online medical consultations system with two major features:
 1. **Customer Reviews Section** with public display and admin management
 2. **Monthly Consultation Reports** with statistics and visualizations
 
@@ -394,11 +394,11 @@ This project demonstrates proficiency in:
 
 ---
 
-**Project:** My Bestad Hospital Management System
+**Project:** My Bestad Online Medical Consultations System
 **Version:** 1.0.0
 **Status:** ✅ Complete
 **Date:** 2024-01-01
 **License:** MIT
 
-© 2024 My Bestad Hospital - All rights reserved
-مستشفى بيستاد - جميع الحقوق محفوظة
+© 2024 My Bestad Online Medical Consultations - All rights reserved
+الاستشارات الطبية عبر الإنترنت - جميع الحقوق محفوظة

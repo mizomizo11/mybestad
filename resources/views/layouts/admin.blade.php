@@ -47,7 +47,7 @@
             <nav class="col-md-2 d-md-block sidebar">
                 <div class="position-sticky pt-3">
                     <div class="text-white text-center mb-4">
-                        <h4><i class="fas fa-hospital"></i> لوحة الإدارة</h4>
+                        <h4><i class="fas fa-stethoscope"></i> لوحة الإدارة</h4>
                     </div>
                     <ul class="nav flex-column">
                         <li class="nav-item">

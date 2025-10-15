@@ -1,10 +1,10 @@
-# My Bestad Hospital Management System
+# My Bestad Online Medical Consultations System
 
-مستشفى بيستاد - نظام إدارة المستشفى
+الاستشارات الطبية عبر الإنترنت - نظام إدارة الاستشارات الطبية
 
 ## Overview | نظرة عامة
 
-This is a Laravel-based hospital management system for My Bestad Hospital (mybestad.com) featuring:
+This is a Laravel-based online medical consultations system for My Bestad (mybestad.com) featuring:
 
 1. **Customer Reviews System** - نظام تقييمات العملاء
    - Public-facing reviews section on homepage
@@ -22,7 +22,7 @@ This is a Laravel-based hospital management system for My Bestad Hospital (mybes
 
 ### Public Features
 - **Home Page** - الصفحة الرئيسية
-  - Hero section with hospital information
+  - Hero section with online medical consultations information
   - Customer reviews carousel and cards
   - Services showcase
   - Bootstrap 5 responsive design
@@ -189,7 +189,7 @@ mybestad/
 ### For Public Users
 1. Visit the homepage to see approved customer reviews
 2. Reviews are displayed in both carousel and card formats
-3. View hospital services and information
+3. View online medical consultations services and information
 
 ### For Administrators
 1. Login with admin credentials
@@ -229,5 +229,5 @@ For issues or questions, please open an issue on GitHub.
 
 ---
 
-© 2024 My Bestad Hospital - All rights reserved
-مستشفى بيستاد - جميع الحقوق محفوظة
+© 2024 My Bestad Online Medical Consultations - All rights reserved
+الاستشارات الطبية عبر الإنترنت - جميع الحقوق محفوظة

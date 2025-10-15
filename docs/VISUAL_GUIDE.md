@@ -1,4 +1,4 @@
-# My Bestad Hospital - Visual Guide
+# My Bestad Online Medical Consultations - Visual Guide
 
 ## Screenshots & UI Preview
 
@@ -9,7 +9,7 @@ This document provides visual demonstrations of all implemented features.
 **URL:** `/` (Home Page)
 
 **Features Shown:**
-- Hero section with hospital welcome message
+- Hero section with online medical consultations welcome message
 - Customer reviews carousel (rotating display)
 - Customer reviews cards (grid layout)
 - Star rating system (1-5 stars)
@@ -21,7 +21,7 @@ This document provides visual demonstrations of all implemented features.
 ![Home Page](https://github.com/user-attachments/assets/37db1acb-f4e1-4fa2-882d-dd60d8a391c9)
 
 **Key Elements:**
-- ✅ Navigation bar with hospital logo
+- ✅ Navigation bar with online medical consultations branding
 - ✅ Welcome message in Arabic
 - ✅ Reviews carousel with dots indicators and navigation arrows
 - ✅ Three review cards displayed in grid
@@ -176,7 +176,7 @@ This document provides visual demonstrations of all implemented features.
 ### Public Users
 1. Visit homepage
 2. See approved customer reviews
-3. Browse hospital services
+3. Browse online medical consultation services
 4. View reviews in carousel and cards
 5. See star ratings visually
 

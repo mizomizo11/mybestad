@@ -1,4 +1,4 @@
-# My Bestad Hospital - Implementation Guide
+# My Bestad Online Medical Consultations - Implementation Guide
 
 ## تقرير التنفيذ الكامل | Complete Implementation Report
 
@@ -202,7 +202,7 @@ consultations
 1. Visit homepage at `/`
 2. View approved customer reviews in carousel
 3. See reviews in card format below carousel
-4. Browse hospital services
+4. Browse online medical consultation services
 
 #### For Administrators:
 1. Login as admin user

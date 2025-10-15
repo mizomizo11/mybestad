@@ -65,7 +65,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'محمد أحمد',
                 'rating' => 5,
-                'comment' => 'خدمة ممتازة وطاقم طبي محترف. أنصح الجميع بالمستشفى',
+                'comment' => 'خدمة ممتازة وطاقم طبي محترف. أنصح الجميع بهذه المنصة',
                 'approved' => true,
             ],
             [
@@ -77,7 +77,7 @@ class DatabaseSeeder extends Seeder
             [
                 'name' => 'أحمد حسن',
                 'rating' => 4,
-                'comment' => 'مستشفى جيد والخدمة سريعة',
+                'comment' => 'منصة جيدة والخدمة سريعة',
                 'approved' => true,
             ],
             [

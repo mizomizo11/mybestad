@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'My Bestad - مستشفى بيستاد')</title>
+    <title>@yield('title', 'My Bestad - الاستشارات الطبية عبر الإنترنت')</title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="{{ route('home') }}">
-                <i class="fas fa-hospital"></i> مستشفى بيستاد
+                <i class="fas fa-stethoscope"></i> الاستشارات الطبية عبر الإنترنت
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,7 @@
     </main>
 
     <footer class="bg-dark text-white text-center py-3 mt-5">
-        <p class="mb-0">&copy; 2024 مستشفى بيستاد - جميع الحقوق محفوظة</p>
+        <p class="mb-0">&copy; 2024 الاستشارات الطبية عبر الإنترنت - جميع الحقوق محفوظة</p>
     </footer>
 
     <!-- Bootstrap 5 JS -->

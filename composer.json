@@ -1,8 +1,8 @@
 {
     "name": "mizomizo11/mybestad",
     "type": "project",
-    "description": "My Bestad Hospital Management System",
-    "keywords": ["laravel", "hospital", "healthcare"],
+    "description": "My Bestad Online Medical Consultations System",
+    "keywords": ["laravel", "online medical consultations", "healthcare"],
     "license": "MIT",
     "require": {
         "php": "^8.1",

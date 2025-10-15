@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "==================================="
-echo "My Bestad Hospital Setup Script"
-echo "مستشفى بيستاد - سكريبت التثبيت"
+echo "My Bestad Online Medical Consultations Setup Script"
+echo "الاستشارات الطبية عبر الإنترنت - سكريبت التثبيت"
 echo "==================================="
 echo ""
 

@@ -255,5 +255,5 @@ All requirements from the problem statement have been successfully implemented:
 
 ---
 
-© 2024 My Bestad Hospital Management System
-مستشفى بيستاد - نظام إدارة المستشفى
+© 2024 My Bestad Online Medical Consultations System
+الاستشارات الطبية عبر الإنترنت - نظام إدارة الاستشارات الطبية

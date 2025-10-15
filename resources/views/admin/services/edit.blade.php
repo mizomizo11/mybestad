@@ -126,7 +126,7 @@
                     <div class="mb-3">
                         <label class="form-label">{{ __('services.image') }} (Current)</label>
                         <div>
-                            <img src="{{ Storage::url($service->image_path) }}" 
+                            <img src="{{ \Illuminate\Support\Facades\Storage::url($service->image_path) }}" 
                                  alt="{{ $service->title_en }}" 
                                  class="img-thumbnail" 
                                  style="max-width: 200px;">

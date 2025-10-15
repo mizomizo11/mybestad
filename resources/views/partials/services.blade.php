@@ -9,7 +9,7 @@
                     <div class="card text-center h-100">
                         <div class="card-body">
                             @if($service->image_path)
-                                <img src="{{ Storage::url($service->image_path) }}" 
+                                <img src="{{ \Illuminate\Support\Facades\Storage::url($service->image_path) }}" 
                                      alt="{{ app()->getLocale() == 'ar' ? $service->title_ar : $service->title_en }}" 
                                      class="img-fluid mb-3"
                                      style="max-height: 100px; object-fit: contain;">

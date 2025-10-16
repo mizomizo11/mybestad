@@ -37,6 +37,16 @@ This is a Laravel-based online medical consultations system for My Bestad (mybes
   - Delete reviews
   - Only approved reviews appear on public homepage
 
+- **Manage Services** - إدارة الخدمات (`/admin/services`)
+  - Full CRUD operations for services
+  - Add/edit/delete services
+  - Activate/deactivate services
+  - Drag-and-drop sorting
+  - Upload service images
+  - Set custom icons (Font Awesome)
+  - Bilingual support (English/Arabic)
+  - Only active services appear on public homepage
+
 - **Monthly Reports** - التقارير الشهرية (`/admin/reports`)
   - Doctor consultation statistics table
   - Statistics cards (this month, last month, total)
@@ -92,7 +102,13 @@ php artisan migrate
 php artisan db:seed
 ```
 
-7. **Start the server**
+7. **Link storage for images**
+```bash
+php artisan storage:link
+```
+This creates a symbolic link from `public/storage` to `storage/app/public` for serving uploaded service images.
+
+8. **Start the server**
 ```bash
 php artisan serve
 ```
@@ -109,16 +125,19 @@ Visit: http://localhost:8000
 2. **reviews** - التقييمات
    - id, name, rating (1-5), comment, approved (boolean), timestamps
 
-3. **doctors** - الأطباء
+3. **services** - الخدمات
+   - id, title_en, title_ar, description_en, description_ar, icon_class, image_path, sort_order, is_active, timestamps
+
+4. **doctors** - الأطباء
    - id, name, specialization, timestamps
 
-4. **consultations** - الاستشارات
+5. **consultations** - الاستشارات
    - id, doctor_id, patient_name, notes, timestamps
 
 ## Routes | المسارات
 
 ### Public Routes
-- `GET /` - Home page with reviews
+- `GET /` - Home page with reviews and services
 
 ### Admin Routes (Requires Authentication + Admin)
 - `GET /admin/reviews` - Manage reviews page
@@ -126,6 +145,16 @@ Visit: http://localhost:8000
 - `POST /admin/reviews/{id}/approve` - Toggle review approval
 - `PUT /admin/reviews/{id}` - Update review
 - `DELETE /admin/reviews/{id}` - Delete review
+
+- `GET /admin/services` - Manage services page
+- `GET /admin/services/create` - Create service form
+- `POST /admin/services` - Store new service
+- `GET /admin/services/{service}/edit` - Edit service form
+- `PUT /admin/services/{service}` - Update service
+- `DELETE /admin/services/{service}` - Delete service
+- `POST /admin/services/{service}/toggle` - Toggle service active status
+- `POST /admin/services/reorder` - Update service sort order
+
 - `GET /admin/reports` - Monthly consultation reports
 
 ## Security | الأمان

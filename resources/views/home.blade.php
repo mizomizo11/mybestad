@@ -93,38 +93,6 @@
         @endif
     </section>
 
-    <!-- Services Section -->
-    <section class="services-section">
-        <h2 class="text-center mb-4">خدماتنا</h2>
-        <div class="row">
-            <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <i class="fas fa-stethoscope fa-3x text-primary mb-3"></i>
-                        <h5 class="card-title">الفحوصات الطبية</h5>
-                        <p class="card-text">فحوصات شاملة مع أحدث الأجهزة الطبية</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <i class="fas fa-user-md fa-3x text-success mb-3"></i>
-                        <h5 class="card-title">الاستشارات الطبية</h5>
-                        <p class="card-text">استشارات مع أفضل الأطباء المتخصصين</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-3">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <i class="fas fa-ambulance fa-3x text-danger mb-3"></i>
-                        <h5 class="card-title">الطوارئ</h5>
-                        <p class="card-text">خدمة طوارئ متوفرة على مدار الساعة</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('partials.services')
 </div>
 @endsection

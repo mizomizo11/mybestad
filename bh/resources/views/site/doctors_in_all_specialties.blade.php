@@ -1,158 +1,231 @@
 @extends('layouts.site.master')
 
-@section('title', 'Medical Specialties')
-
 @section('breadcrumb')
-<nav aria-label="breadcrumb">
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{ url(app()->getLocale()) }}">@if(App::getLocale() == 'ar') الرئيسية @else Home @endif</a></li>
-        <li class="breadcrumb-item active" aria-current="page">@if(App::getLocale() == 'ar') التخصصات @else Specialties @endif</li>
-    </ol>
-</nav>
 @endsection
 
+
+
+
+
 @section('content')
-<!-- Page Header -->
-<section class="page-header bg-primary-custom text-white py-5 mb-5">
-    <div class="container">
-        <div class="text-center">
-            <h1 class="display-4 fw-bold mb-3 text-white" data-aos="fade-up">
-                @if(App::getLocale() == 'ar') التخصصات الطبية @else Medical Specialties @endif
-            </h1>
-            <p class="lead opacity-90" data-aos="fade-up" data-aos-delay="100">
-                @if(App::getLocale() == 'ar')
-                    اختر التخصص الطبي المناسب لاحتياجاتك
-                @else
-                    Choose the right medical specialty for your needs
-                @endif
-            </p>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h3  style="text-align: center;color: #0f9bc0;border-bottom:1px solid #0f9bc0;padding:10px;">
+
+                    الاطباء في كافة الاختصاصات
+
+                </h3>
+            </div>
         </div>
     </div>
-</section>
-
-<section class="section-padding">
     <div class="container">
-        @if(isset($specialties) && count($specialties) > 0)
-            <div class="row g-4">
-                @foreach($specialties as $index => $specialty)
-                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="{{ $index * 100 }}">
-                        <div class="card border-0 h-100 shadow-sm hover-lift">
-                            <div class="card-body p-4">
-                                <div class="specialty-icon bg-primary-custom text-white rounded-circle mb-3 d-flex align-items-center justify-content-center" style="width: 70px; height: 70px;">
-                                    <i class="fas fa-stethoscope fa-2x"></i>
-                                </div>
-                                
-                                <h5 class="fw-bold mb-3">
-                                    @if(App::getLocale() == 'ar')
-                                        {{ $specialty->name_ar ?? $specialty->name }}
-                                    @else
-                                        {{ $specialty->name_en ?? $specialty->name }}
-                                    @endif
-                                </h5>
-                                
-                                @if(isset($specialty->description))
-                                    <p class="text-muted mb-4">
-                                        @if(App::getLocale() == 'ar')
-                                            {{ Str::limit($specialty->description_ar ?? $specialty->description, 100) }}
-                                        @else
-                                            {{ Str::limit($specialty->description_en ?? $specialty->description, 100) }}
-                                        @endif
-                                    </p>
+        <div class="row">
+            @foreach ($doctors as $doctor)
+                <div class="col-md-3 col-sm-6" style="text-align: center;;padding: 3px">
+                    <div style="margin: 4px;border: 1px solid #bdd7ea">
+                        <div  style="margin: 5px">
+                            <a href="#" class="image">
+                               @if ($doctor->personal_image)
+                                    <img src= "{{asset(Config::get('app.upload'))}}/{{$doctor -> personal_image}}" style="height: 120px;width: 120px;border-radius: 50%;border:2px solid #bdd7ea">
+                                @else
+                                    <img src= "{{asset(Config::get('app.no_image'))}}" style="height: 120px;width: 120px;border-radius: 50%;border:2px solid #bdd7ea">
                                 @endif
-                                
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <span class="text-muted small">
-                                        <i class="fas fa-user-md me-1"></i>
-                                        {{ $specialty->doctors_count ?? 0 }} 
-                                        @if(App::getLocale() == 'ar') طبيب @else Doctors @endif
-                                    </span>
-                                    <a href="{{ url(app()->getLocale().'/specialties/'.$specialty->id) }}" 
-                                       class="btn btn-outline-primary btn-sm rounded-pill">
-                                        @if(App::getLocale() == 'ar') عرض الأطباء @else View Doctors @endif
-                                        <i class="fas fa-arrow-right ms-1"></i>
-                                    </a>
-                                </div>
+                            </a>
+                        </div>
+                        <div class="product-content">
+                            <h5 class="text-primary" style="margin: 5px">   {{ __('site.name') }} : {{$doctor->name}}</h5>
+                            <h6 class="text-primary" style="margin: 5px">   {{ __('site.specialty') }} : {{@$doctor->specialty->{"name_".app()->getLocale()} }} </h6>
+                            <h6 class="text-primary" style="margin: 5px">   {{ __('site.current_place_of_work') }} : {{@$doctor->place_of_work }} </h6>
+                            <h6 class="text-primary" style="margin: 5px">   {{ __('site.years_of_experience') }} : {{@$doctor->years_of_experience }} </h6>
+
+                            <div style="padding: 10px">
+                                <form  method="post" action="{{url(app()->getLocale()."/patients/steps")}}">
+                                    <a   class="btn btn-sm  modal_btn btn-light-primary"  data-id="{{$doctor->id}}"   style="width: 200px;margin-bottom: 3px">{{ __('site.doctor_details') }} </a>
+                                    @csrf
+                                    <input type="hidden" name="doctor_id" id="doctor_id"  value="{{$doctor->id}}"><br>
+                                    @if(Auth::guard('patient')->user())
+                                        <button type="submit"  class="btn btn-sm   btn-light-primary"  name="login_btn" id="login_btn"   style="width: 200px">{{ __('site.request_a_consultation') }} </button>
+                                    @else
+                                        <a href="{{url(app()->getLocale()."/patients/create")}}" class="btn btn-sm btn-light-primary  "  > {{ __('site.request_a_consultation') }}   <i class="fa fa-calendar ml-1"></i></a>
+                                    @endif
+                                </form>
+
+
                             </div>
                         </div>
                     </div>
-                @endforeach
-            </div>
-            
-            <!-- Pagination -->
-            @if(isset($specialties) && method_exists($specialties, 'links'))
-                <div class="mt-5 d-flex justify-content-center">
-                    {{ $specialties->links() }}
                 </div>
-            @endif
-        @else
-            <!-- No Specialties Found -->
-            <div class="text-center py-5">
-                <div class="empty-state">
-                    <i class="fas fa-briefcase-medical fa-4x text-muted mb-4"></i>
-                    <h4 class="fw-bold mb-3">
-                        @if(App::getLocale() == 'ar') لا توجد تخصصات متاحة @else No Specialties Available @endif
-                    </h4>
-                    <p class="text-muted">
-                        @if(App::getLocale() == 'ar')
-                            سنقوم بإضافة المزيد من التخصصات قريباً
-                        @else
-                            We'll be adding more specialties soon
-                        @endif
-                    </p>
-                </div>
-            </div>
-        @endif
+            @endforeach
+        </div>
     </div>
-</section>
+    <style>
+        .product-grid{
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            border: 1px solid transparent;
+            transition: all 0.4s ease-out 0s;
+        }
+        .product-grid:hover{
+            border-color: #940a5d;
+            box-shadow: 0 0 0 7px rgba(148,10,93,0.1);
+        }
+        .product-grid .product-image{
+            overflow: hidden;
+            position: relative;
+            z-index: 1;
+        }
+        .product-grid .product-image a.image{display: block; }
+        .product-grid .product-image img{
+            width: 100%;
+            height: auto;
+        }
+        .product-grid .product-sale-label{
+            color: #fff;
+            background: #f24148;
+            font-size: 14px;
+            font-weight: 500;
+            text-transform: capitalize;
+            line-height: 45px;
+            width: 45px;
+            height: 45px;
+            box-shadow: 0 0 15px -3px rgba(0,0,0,0.3);
+            border-radius: 50px;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            transition: all 500ms ease;
+        }
+        .product-grid .product-content{ padding: 15px; }
+        .product-grid .title{
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin: 0 0 10px;
+        }
+        .product-grid .title a{
+            color: #555;
+            transition: all 0.3s ease 0s;
+        }
+        .product-grid .title a:hover{ color: #940a5d; }
+        .product-grid .price{
+            color: #940a5d;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 0 0 11px;
+        }
+        .product-grid .price span{
+            color: #888;
+            font-size: 13px;
+            font-weight: 400;
+            text-decoration: line-through;
+        }
+        .product-grid .product-links{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+        .product-grid .product-links li{
+            margin: 0 2px;
+            display: inline-block;
+        }
+        .product-grid .product-links li a{
+            color: #f24148;
+            background: #fff;
+            font-size: 16px;
+            line-height: 36px;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px -3px rgba(242,65,72,0.9);
+            display: block;
+            transition: all 500ms ease;
+        }
+        .product-grid .product-links li a:hover{
+            color: #fff;
+            background:#940a5d;
+        }
+        @media screen and (max-width: 990px){
+            .product-grid{ margin-bottom: 30px; }
+        }
+    </style>
 
-<!-- CTA Section -->
-<section class="section-padding bg-light-custom">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-8 mb-4 mb-lg-0" data-aos="fade-right">
-                <h2 class="fw-bold mb-3">
-                    @if(App::getLocale() == 'ar')
-                        لم تجد التخصص الذي تبحث عنه؟
-                    @else
-                        Didn't Find the Specialty You're Looking For?
-                    @endif
-                </h2>
-                <p class="text-muted mb-0">
-                    @if(App::getLocale() == 'ar')
-                        تواصل معنا وسنساعدك في العثور على الطبيب المناسب
-                    @else
-                        Contact us and we'll help you find the right doctor
-                    @endif
-                </p>
-            </div>
-            <div class="col-lg-4 text-lg-end" data-aos="fade-left">
-                <a href="{{ url(app()->getLocale().'/contacts') }}" class="btn btn-primary btn-lg rounded-pill px-5">
-                    <i class="fas fa-envelope me-2"></i>
-                    @if(App::getLocale() == 'ar') اتصل بنا @else Contact Us @endif
-                </a>
+
+    <div class="container" style="direction: @if(App::getLocale() == 'ar')  rtl  @else  ltr   @endif;text-align: @if(App::getLocale() == 'ar')  right  @else  left   @endif ;">
+        <div class="row" style="padding: 25px">
+            <div id="showresults" class="col-md-8" style="margin: auto;">
+
             </div>
         </div>
     </div>
-</section>
+    <script>
+
+    </script>
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $(document).on('click', '.modal_btn', function (e) {
+
+
+                var id = $(this).attr("data-id");
+                myPanel = jsPanel.modal.create({
+                    id: "jsPanel-1111111111111111",
+                    closeOnBackdrop: true, // see notes below
+                    closeOnEscape: true,
+                    headerControls: {
+                        minimize: 'remove',
+                        size: "lg"
+                    },
+                    theme: 'info',
+                    headerLogo: '<i class="fad fa-home-heart ml-2"></i>',
+                    headerTitle: '<span style="margin: 0;font-size: 16px;font-family: font2">{{ __('site.doctor_details') }} </span>',
+                    headerToolbar: '<span class=" " style="font-family: font2;text-align: center">' + name + ' </span>',
+                    show: 'fadeIn',
+                    // container: 'body',
+                    borderRadius: '5px',
+                    boxShadow: 5,
+                    panelSize: {
+                        width: () => {
+                            return Math.min(600, window.innerWidth * 0.9);
+                        },
+                        height: () => {
+                            return Math.min(450, window.innerHeight * 0.6);
+                        }
+                    },
+                    // contentSize: 'auto auto',
+                    contentSize: {width: '400px', height: '100px'}, // must be object
+                    position: 'center-top 0 150 ',
+                    // animateIn: 'jsPanelFadeIn',
+                    animateIn: 'animate__animated animate__fadeIn',
+                    // animateOut: 'animate__animated animate__bounceOut',
+                    contentAjax: {
+                        method: 'get',
+                        url: "{{url(app()->getLocale().'/doctors/show/') }}/" + id,
+                        beforeSend: function () {
+                            this.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+                        },
+                        done: (xhr, panel) => {
+                            // panel.content.innerHTML = xhr.responseText;
+                            //  panel.contentRemove();
+                            panel.content.append(jsPanel.strToHtml(xhr.responseText));
+                            $('.fa-spinner').hide();
+                            //Prism.highlightAll();
+                        }
+                    },
+                }).headertoolbar.style.border = '0px solid #fff';
+
+
+            });
+
+
+        })
+
+</script>
 @endsection
 
-@section('scripts')
-<style>
-    .page-header {
-        background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
-    }
-    
-    .specialty-icon {
-        transition: all 0.3s ease;
-    }
-    
-    .card:hover .specialty-icon {
-        transform: scale(1.1) rotate(10deg);
-        box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
-    }
-    
-    .empty-state i {
-        opacity: 0.3;
-    }
-</style>
-@endsection
+
+
+

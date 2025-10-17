@@ -1,241 +1,292 @@
 @extends('layouts.site.master')
-
-@section('title', 'Login / Register - Patient')
-
+@section('breadcrumb')
+@endsection
 @section('content')
-<section class="section-padding">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="card border-0 shadow-lg">
-                    <div class="card-body p-0">
-                        <div class="row g-0">
-                            <!-- Left Side - Login Form -->
-                            <div class="col-lg-6 p-5 border-end">
-                                <h3 class="fw-bold mb-4">
-                                    @if(App::getLocale() == 'ar') تسجيل الدخول @else Login @endif
-                                </h3>
-                                
-                                @if(session('error'))
-                                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                                        {{ session('error') }}
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                                    </div>
-                                @endif
-                                
-                                <form method="POST" action="{{ route('patient.login') }}">
-                                    @csrf
-                                    
-                                    <!-- Email -->
-                                    <div class="mb-3">
-                                        <label for="login_email" class="form-label">
-                                            @if(App::getLocale() == 'ar') البريد الإلكتروني @else Email @endif
-                                        </label>
-                                        <input type="email" 
-                                               class="form-control @error('login_email') is-invalid @enderror" 
-                                               id="login_email" 
-                                               name="email" 
-                                               value="{{ old('email') }}"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل بريدك الإلكتروني @else Enter your email @endif"
-                                               required>
-                                        @error('login_email')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Password -->
-                                    <div class="mb-3">
-                                        <label for="login_password" class="form-label">
-                                            @if(App::getLocale() == 'ar') كلمة المرور @else Password @endif
-                                        </label>
-                                        <input type="password" 
-                                               class="form-control @error('login_password') is-invalid @enderror" 
-                                               id="login_password" 
-                                               name="password"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل كلمة المرور @else Enter your password @endif"
-                                               required>
-                                        @error('login_password')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Remember Me -->
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="remember" name="remember">
-                                        <label class="form-check-label" for="remember">
-                                            @if(App::getLocale() == 'ar') تذكرني @else Remember me @endif
-                                        </label>
-                                    </div>
-                                    
-                                    <!-- Submit Button -->
-                                    <button type="submit" class="btn btn-primary w-100 mb-3">
-                                        <i class="fas fa-sign-in-alt me-2"></i>
-                                        @if(App::getLocale() == 'ar') تسجيل الدخول @else Login @endif
-                                    </button>
-                                    
-                                    <!-- Forgot Password -->
-                                    <div class="text-center">
-                                        <a href="{{ route('patient.forgot.password.form') }}" class="text-primary-custom">
-                                            @if(App::getLocale() == 'ar') نسيت كلمة المرور؟ @else Forgot Password? @endif
-                                        </a>
-                                    </div>
-                                </form>
-                            </div>
-                            
-                            <!-- Right Side - Register Form -->
-                            <div class="col-lg-6 p-5 bg-light-custom">
-                                <h3 class="fw-bold mb-4">
-                                    @if(App::getLocale() == 'ar') إنشاء حساب جديد @else Create New Account @endif
-                                </h3>
-                                
-                                @if(session('success'))
-                                    <div class="alert alert-success alert-dismissible fade show" role="alert">
-                                        {{ session('success') }}
-                                        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-                                    </div>
-                                @endif
-                                
-                                <form method="POST" action="{{ route('patient.register') }}">
-                                    @csrf
-                                    
-                                    <!-- Name -->
-                                    <div class="mb-3">
-                                        <label for="register_name" class="form-label">
-                                            @if(App::getLocale() == 'ar') الاسم الكامل @else Full Name @endif
-                                        </label>
-                                        <input type="text" 
-                                               class="form-control @error('name') is-invalid @enderror" 
-                                               id="register_name" 
-                                               name="name" 
-                                               value="{{ old('name') }}"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل اسمك الكامل @else Enter your full name @endif"
-                                               required>
-                                        @error('name')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Email -->
-                                    <div class="mb-3">
-                                        <label for="register_email" class="form-label">
-                                            @if(App::getLocale() == 'ar') البريد الإلكتروني @else Email @endif
-                                        </label>
-                                        <input type="email" 
-                                               class="form-control @error('email') is-invalid @enderror" 
-                                               id="register_email" 
-                                               name="email" 
-                                               value="{{ old('email') }}"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل بريدك الإلكتروني @else Enter your email @endif"
-                                               required>
-                                        @error('email')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Phone -->
-                                    <div class="mb-3">
-                                        <label for="register_phone" class="form-label">
-                                            @if(App::getLocale() == 'ar') رقم الهاتف @else Phone Number @endif
-                                        </label>
-                                        <input type="tel" 
-                                               class="form-control @error('phone') is-invalid @enderror" 
-                                               id="register_phone" 
-                                               name="phone" 
-                                               value="{{ old('phone') }}"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل رقم هاتفك @else Enter your phone number @endif"
-                                               required>
-                                        @error('phone')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Password -->
-                                    <div class="mb-3">
-                                        <label for="register_password" class="form-label">
-                                            @if(App::getLocale() == 'ar') كلمة المرور @else Password @endif
-                                        </label>
-                                        <input type="password" 
-                                               class="form-control @error('password') is-invalid @enderror" 
-                                               id="register_password" 
-                                               name="password"
-                                               placeholder="@if(App::getLocale() == 'ar') أدخل كلمة المرور @else Enter password @endif"
-                                               required>
-                                        @error('password')
-                                            <div class="invalid-feedback">{{ $message }}</div>
-                                        @enderror
-                                    </div>
-                                    
-                                    <!-- Password Confirmation -->
-                                    <div class="mb-3">
-                                        <label for="password_confirmation" class="form-label">
-                                            @if(App::getLocale() == 'ar') تأكيد كلمة المرور @else Confirm Password @endif
-                                        </label>
-                                        <input type="password" 
-                                               class="form-control" 
-                                               id="password_confirmation" 
-                                               name="password_confirmation"
-                                               placeholder="@if(App::getLocale() == 'ar') أعد إدخال كلمة المرور @else Re-enter password @endif"
-                                               required>
-                                    </div>
-                                    
-                                    <!-- Terms & Conditions -->
-                                    <div class="mb-3 form-check">
-                                        <input type="checkbox" class="form-check-input" id="terms" name="terms" required>
-                                        <label class="form-check-label" for="terms">
-                                            @if(App::getLocale() == 'ar')
-                                                أوافق على <a href="{{ url(app()->getLocale().'/terms-and-conditions') }}" target="_blank">الشروط والأحكام</a>
-                                            @else
-                                                I agree to the <a href="{{ url(app()->getLocale().'/terms-and-conditions') }}" target="_blank">Terms & Conditions</a>
-                                            @endif
-                                        </label>
-                                    </div>
-                                    
-                                    <!-- Submit Button -->
-                                    <button type="submit" class="btn btn-primary w-100">
-                                        <i class="fas fa-user-plus me-2"></i>
-                                        @if(App::getLocale() == 'ar') إنشاء حساب @else Create Account @endif
-                                    </button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Doctor Login Link -->
-                <div class="text-center mt-4">
-                    <p class="text-muted">
-                        @if(App::getLocale() == 'ar')
-                            هل أنت طبيب؟
-                        @else
-                            Are you a doctor?
-                        @endif
-                        <a href="{{ url(app()->getLocale().'/doctors/login') }}" class="text-primary-custom fw-semibold">
-                            @if(App::getLocale() == 'ar') تسجيل دخول الأطباء @else Doctor Login @endif
-                        </a>
-                    </p>
-                </div>
+    <div class="container" style="margin-top: 50px;">
+        <div class="row">
+            <div class="col-md-12">
+                <h3  style="text-align: center;border-bottom:1px solid #0f9bc0;color: #0f9bc0;padding:10px;">
+                    {{ __('site.login_as_patient') }}
+                </h3>
             </div>
         </div>
     </div>
-</section>
+    <div class="container" style="padding-top: 50px;margin-bottom: 50px;text-align: @if(App::getLocale() == 'ar')  right  @else  left   @endif ;direction: @if(App::getLocale() == 'ar')  rtl  @else  ltr   @endif ">
+        <div class="row">
+            <div class="col-md-3">
+                <h3 class="" style="text-align: center;border-bottom:1px solid #0f9bc0;padding:10px;color: #0f9bc0;"> {{ __('site.login_as_patient') }}</h3>
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                @if (Session::has('message'))
+                    <div class="alert alert-warning">{{ Session::get('message') }}</div>
+                @endif
+                <form  method="POST" action="{{route('patient.login',["locale"=>app()->getLocale()]) }}"    >
+                    @csrf
+                    <div class='row' >
+                        <div class='col-md-12'>
+                            <div>
+                                <label>* {{ __('site.email') }}</label>
+                            </div>
+                            <div>
+                                <input type="text" name="login_email"  class="form-control form-control-sm"  style="direction: ltr;text-align: left" required=""  />
+                            </div>
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 10px;">
+                        <div class='col-md-12'>
+                            <div >
+                                <label>* {{ __('site.password') }}</label>
+                                <input type="password" name="login_password" class="form-control form-control-sm" style="direction: ltr;text-align: left"  required=""  />
+                            </div>
+                        </div>
+                    </div>
+                    <div id="notice">  </div>
+                    <div class='row' style="margin-top: 25px;">
+                        <div class='col-sm-12' style="text-align: center;margin: 0px;">
+                            <a href="{{ route('patient.forgot.password.form',['locale'=>App()->getLocale()]) }}"> {{ __('site.forgot_password') }}</a>
+                            <button  class="btn btn-md btn-info  "  name="login_btn" id="login_btn"   style="width: 200px">{{ __('site.login') }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1" style="border-left:1px solid #e5e5e5">
+            </div>
+            <div class="col-md-1" >
+            </div>
+            <div class="col-md-6" style="">
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+                <h2 class="" style="text-align: center;border-bottom:1px solid #0f9bc0;padding:10px;color: #0f9bc0;"> {{ __('site.register_as_patient') }}</h2>
+                <form id="register_form"  method="POST" action="{{route('patient.register',["locale"=>app()->getLocale()]) }}"     enctype="multipart/form-data" >
+                    @csrf
+                    <div class='row' style="padding-top: 20px;">
+                        <div class="col-md-4">
+                            <label style="font-weight: bold;" >* {{ __('site.name') }}</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" name="name" id="name"   class="form-control form-control-sm"  required=""  />
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4'>
+                            <label style="font-weight: bold;" >* {{ __('site.mobile') }} </label>
+                        </div>
+                        <div class='col-md-6'>
+                            <input type="text" name="mobile" style="direction: ltr;text-align: left" class="form-control form-control-sm"  required=""  />
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4'>
+                            <label style="font-weight: bold;" >* {{ __('site.email') }} </label>
+                        </div>
+                        <div class='col-md-6'>
+                            <input type="text" name="email" style="direction: ltr;text-align: left" class="form-control form-control-sm" required=""    />
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4'>
+                            <label style="font-weight: bold;" >*{{ __('site.password') }}</label>
+                        </div>
+                        <div class='col-md-6'>
+                            <input type="password" name="password" style="direction: ltr;text-align: left" class="form-control form-control-sm" required=""    />
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4'>
+                            <label style="font-weight: bold;" >* {{ __('site.password_confirmation') }}</label>
+                        </div>
+                        <div class='col-md-6'>
+                            <input  type="password" name="password2" style="direction: ltr;text-align: left" class="form-control form-control-sm"  required=""  />
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4 '>
+                            <label style="font-weight: bold;"  >*   {{ __('site.country') }} </label>
+                        </div>
+                        <div class='col-md-6'>
+                            <select id="" name="country_id" class="form-control form-control-sm " style="border-radius:5px" required="" >
+                                @foreach ($countries as $country)
+                                    <option value="{{$country -> id}}">{{$country -> {"name_".app()->getLocale()} }}</option>
+                                @endforeach
+                            </select>
+
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4 '>
+                            <label style="font-weight: bold;"  >* {{ __('site.timezone') }} </label>
+                        </div>
+                        <div class='col-md-6'>
+                            <select  name="timezone_id" class="form-control form-control-sm js-example-basic-single" style="border-radius:5px;text-align: left">
+                                @foreach ($timezones as $timezone)
+                                    <option value="{{$timezone -> id}}"  >
+                                        {{$timezone ->{'name_'.app()->getLocale()} }} {{ $timezone -> utc_offset }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                    </div>
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-4 '>
+                            <label style="font-weight: bold;"  >  {{ __('site.photo') }} ( {{ __('site.optional') }} )  </label>
+                        </div>
+                        <div class='col-md-6'>
+                            <input type="hidden" name="MAX_FILE_SIZE" value="10000000">
+                            <input class="form-control form-control-sm"  type="file"   name="image_file"  />
+                        </div>
+                    </div>
+
+                    <div class='row' style="margin-top: 5px;">
+                        <div class='col-md-12 '>
+                            <label style="font-weight: bold;"  > {{ __('site.using_conditions_and_privacy_policy') }}    </label>
+                        </div>
+                        <div class='col-md-10'>
+
+                            {{ __('site.when_click_on_create_account_you_have_read_understand_and_agree_on') }}
+                            <a href="{{url(app()->getLocale()."/privacy-policy")}}" target="_blank" class="">
+                                <b><u>   {{ __('site.using_conditions_and_privacy_policy') }}      </u>   </b>
+{{--                                <span style="color: #000">       {{ __('site.read_more') }}...   </span>--}}
+
+
+                            </a>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+                    <div class='row' style="margin-top: 25px;">
+                        <div class='col-sm-12' style="text-align: center;margin: 0px;">
+                            <input type="submit"  class="btn btn-md btn-info "  name="Submit" id="submit-btn" value="{{ __('site.create_account') }}"  style="width: 200px;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            {{--$("#register_form11").submit(function(e){--}}
+            {{--    e.preventDefault()--}}
+            {{--     //alert("ans");--}}
+            {{--    var formData = new FormData($("#register_form")[0]);--}}
+            {{--    formData.append('_token', '{{ csrf_token() }}');--}}
+            {{--    $.ajax(--}}
+            {{--        {--}}
+            {{--            beforeSend: function() {--}}
+            {{--                Swal.showLoading();--}}
+            {{--            },--}}
+            {{--            type: "post", // replaced from put--}}
+            {{--            url:"{{url(app()->getLocale()."/patients/register")}}",--}}
+            {{--            data:formData,--}}
+            {{--            contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)--}}
+            {{--            processData: false, // NEEDED, DON'T OMIT THIS--}}
+            {{--            dataType:'json',--}}
+            {{--            success: function (data)--}}
+            {{--            {--}}
+            {{--                if(data.status === "true" )--}}
+            {{--                {--}}
+            {{--                    Lobibox.notify('success', {--}}
+            {{--                        continueDelayOnInactiveTab: true,--}}
+            {{--                        position: 'bottom left',--}}
+            {{--                        size: 'mini',--}}
+            {{--                        msg: '<h5>تم التسجيل بنجاح </h5>'--}}
+            {{--                    });--}}
+
+            {{--                    setTimeout(function (){--}}
+            {{--                       window.location.href = '/{{App::getLocale()}}/';--}}
+            {{--                    },2000);--}}
+            {{--                }else{--}}
+            {{--                    Lobibox.notify('warning', {--}}
+            {{--                        continueDelayOnInactiveTab: true,--}}
+            {{--                        position: 'bottom right',--}}
+            {{--                        size: 'mini',--}}
+            {{--                        msg: '<h5>فشل</h5>'--}}
+            {{--                    });--}}
+            {{--                }--}}
+            {{--                Swal.close();--}}
+            {{--            },--}}
+            {{--            error: function(xhr) {--}}
+            {{--                // alert(xhr)--}}
+            {{--                // do something here because of error--}}
+            {{--            }--}}
+            {{--        });--}}
+            {{--});--}}
+            {{--$("#login_btn").click(function(e){--}}
+            {{--   e.preventDefault();--}}
+            {{--    var formData = new FormData($("#login_form")[0]);--}}
+            {{--    formData.append('_token', '{{ csrf_token() }}');--}}
+            {{--    $.ajax(--}}
+            {{--        {--}}
+            {{--            beforeSend: function() {--}}
+            {{--                Swal.showLoading();--}}
+            {{--            },--}}
+            {{--            type: "post", // replaced from put--}}
+            {{--            url:"{{url(app()->getLocale()."/patients/login")}}",--}}
+            {{--            data:formData,--}}
+            {{--            contentType: false, // NEEDED, DON'T OMIT THIS (requires jQuery 1.6+)--}}
+            {{--            processData: false, // NEEDED, DON'T OMIT THIS--}}
+            {{--            dataType:'json',--}}
+            {{--            success: function (data)--}}
+            {{--            {--}}
+            {{--                if(data.status === "true")--}}
+            {{--                {--}}
+            {{--                    Lobibox.notify('success', {--}}
+            {{--                        continueDelayOnInactiveTab: true,--}}
+            {{--                        position: 'bottom left',--}}
+            {{--                        size: 'mini',--}}
+            {{--                        msg: '<h5>تم الدخول بنجاح</h5>'--}}
+            {{--                    });--}}
+            {{--                    setTimeout(function (){--}}
+            {{--                        window.location.href = '/{{App::getLocale()}}';--}}
+            {{--                        Swal.close();--}}
+            {{--                    },2000);--}}
+            {{--                }else{--}}
+            {{--                    Lobibox.notify('error', {--}}
+            {{--                        continueDelayOnInactiveTab: true,--}}
+            {{--                        position: 'bottom left',--}}
+            {{--                        size: 'mini',--}}
+            {{--                        msg: '<h5>فشل الدخول</h5>'--}}
+            {{--                    });--}}
+            {{--                    Swal.close();--}}
+            {{--                }--}}
+            {{--            },--}}
+            {{--            error: function(xhr) {--}}
+            {{--                // alert(xhr)--}}
+            {{--                // do something here because of error--}}
+            {{--            }--}}
+            {{--        });--}}
+
+
+
+
+
+
+            {{--});--}}
+
+        });
+
+
+    </script>
+
 @endsection
 
-@section('scripts')
-<style>
-    .form-control:focus {
-        border-color: var(--primary-color);
-        box-shadow: 0 0 0 0.25rem rgba(37, 99, 235, 0.15);
-    }
-    
-    .card {
-        overflow: hidden;
-    }
-    
-    @media (max-width: 991px) {
-        .border-end {
-            border-right: none !important;
-            border-bottom: 1px solid var(--border-color);
-        }
-    }
-</style>
-@endsection
+
+

@@ -1,11 +1,9 @@
-name: Deploy bh to Hostinger
+name: Deploy all files to Hostinger
 
 on:
   push:
     branches:
       - main
-    paths:
-      - 'bh/**'
 
 jobs:
   ftp-deploy:

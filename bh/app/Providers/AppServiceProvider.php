@@ -30,50 +30,48 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        // تأكد أن استعلامات قاعدة البيانات لا تنفذ أثناء أوامر artisan (كأوامر الكاش)
+        if (!app()->runningInConsole()) {
 
-        $contacts= Contact::first();
-        View::share('contacts', $contacts);
+            $contacts= Contact::first();
+            View::share('contacts', $contacts);
 
-        $services = Service::orderBy('record_order', 'asc')->get();
-        View::share('services', $services);
-        $specialties = Specialty::orderBy('record_order', 'asc')->get();
-        View::share('specialties', $specialties);
-        $whous = WhousModel::first();
-        View::share('whous', $whous);
-        $settings = Settings::first();
-        View::share('settings', $settings);
+            $services = Service::orderBy('record_order', 'asc')->get();
+            View::share('services', $services);
 
+            $specialties = Specialty::orderBy('record_order', 'asc')->get();
+            View::share('specialties', $specialties);
 
+            $whous = WhousModel::first();
+            View::share('whous', $whous);
 
-        $last_services = Service::orderBy('record_order', 'asc')->limit(10)->get();
-        View::share('last_services', $last_services);
+            $settings = Settings::first();
+            View::share('settings', $settings);
 
-        view()->composer('*', function ($view)
-        {
-            if (Auth::guard('patient')->check()) {
-                $patient_notes= Notification::where('to','patient')
-                    ->where('patient_id',@Auth::guard('patient')->user()->id)
-                    ->where('read',"no")
-                    ->orderBy('id', 'desc')
-                    ->get();
-                View::share('patient_notes', $patient_notes);
-            }
+            $last_services = Service::orderBy('record_order', 'asc')->limit(10)->get();
+            View::share('last_services', $last_services);
 
-            if (Auth::guard('doctor')->check()) {
-                $doctor_notes= Notification::where('to','doctor')
-                    ->where('doctor_id',@Auth::guard('doctor')->user()->id)
-                    ->where('read',"no")
-                    ->orderBy('id', 'desc')
+            view()->composer('*', function ($view)
+            {
+                if (Auth::guard('patient')->check()) {
+                    $patient_notes= Notification::where('to','patient')
+                        ->where('patient_id',@Auth::guard('patient')->user()->id)
+                        ->where('read',"no")
+                        ->orderBy('id', 'desc')
+                        ->get();
+                    View::share('patient_notes', $patient_notes);
+                }
 
-                    ->get();
-                View::share('doctor_notes', $doctor_notes);
+                if (Auth::guard('doctor')->check()) {
+                    $doctor_notes= Notification::where('to','doctor')
+                        ->where('doctor_id',@Auth::guard('doctor')->user()->id)
+                        ->where('read',"no")
+                        ->orderBy('id', 'desc')
+                        ->get();
+                    View::share('doctor_notes', $doctor_notes);
+                }
+            });
 
-            }
-
-
-        });
-
-
-
+        }
     }
 }

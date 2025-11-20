@@ -259,5 +259,5 @@ For issues or questions, please open an issue on GitHub.
 ---
 
 © 2024 My Bestad Online Medical Consultations - All rights reserved
-الاستشارات الطبية عبر الإنترنت1 - جميع الحقوق محفوظة
+الاستشارات الطبية عبر الإنترنت - جميع الحقوق محفوظة
 

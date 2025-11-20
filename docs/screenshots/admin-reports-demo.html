@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التقارير الشهرية - Admin Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        .sidebar { min-height: 100vh; background-color: #343a40; }
+        .sidebar a { color: #fff; text-decoration: none; padding: 10px 20px; display: block; }
+        .sidebar a:hover { background-color: #495057; }
+        .sidebar a.active { background-color: #007bff; }
+        .stat-card { border-left: 4px solid; }
+        #chart-placeholder { height: 300px; background: #f8f9fa; display: flex; align-items: center; justify-content: center; border: 2px dashed #dee2e6; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <nav class="col-md-2 d-md-block sidebar">
+                <div class="position-sticky pt-3">
+                    <div class="text-white text-center mb-4">
+                        <h4><i class="fas fa-stethoscope"></i> لوحة الإدارة</h4>
+                    </div>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-star"></i> إدارة التقييمات
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fas fa-chart-bar"></i> التقارير الشهرية
+                            </a>
+                        </li>
+                        <li class="nav-item mt-3">
+                            <a class="nav-link" href="#">
+                                <i class="fas fa-home"></i> العودة للموقع
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Main content -->
+            <main class="col-md-10 ms-sm-auto p-4">
+                <h1 class="mb-4"><i class="fas fa-chart-bar"></i> التقارير الشهرية للاستشارات</h1>
+                
+                <!-- Statistics Cards -->
+                <div class="row mb-4">
+                    <div class="col-md-4">
+                        <div class="card stat-card border-primary">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">
+                                    <i class="fas fa-calendar-check"></i> استشارات هذا الشهر
+                                </h5>
+                                <h2 class="mb-0">28</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card stat-card border-warning">
+                            <div class="card-body">
+                                <h5 class="card-title text-warning">
+                                    <i class="fas fa-calendar-minus"></i> استشارات الشهر الماضي
+                                </h5>
+                                <h2 class="mb-0">22</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card stat-card border-success">
+                            <div class="card-body">
+                                <h5 class="card-title text-success">
+                                    <i class="fas fa-chart-line"></i> إجمالي الاستشارات
+                                </h5>
+                                <h2 class="mb-0">156</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Consultations Table -->
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-table"></i> تقرير الأطباء - الاستشارات</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead class="table-dark">
+                                    <tr>
+                                        <th>اسم الطبيب</th>
+                                        <th class="text-center">استشارات هذا الشهر</th>
+                                        <th class="text-center">استشارات الشهر الماضي</th>
+                                        <th class="text-center">إجمالي الاستشارات</th>
+                                        <th class="text-center">التغيير</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <strong>د. أحمد محمد</strong><br>
+                                            <small class="text-muted">طب القلب</small>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-primary fs-6">8</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-warning fs-6">6</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success fs-6">45</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-arrow-up"></i> 33.3%
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>د. فاطمة علي</strong><br>
+                                            <small class="text-muted">طب الأطفال</small>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-primary fs-6">9</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-warning fs-6">7</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success fs-6">52</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-arrow-up"></i> 28.6%
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>د. محمود حسن</strong><br>
+                                            <small class="text-muted">طب العظام</small>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-primary fs-6">6</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-warning fs-6">5</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success fs-6">31</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-arrow-up"></i> 20.0%
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <strong>د. سارة خالد</strong><br>
+                                            <small class="text-muted">طب النساء والولادة</small>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-primary fs-6">5</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-warning fs-6">4</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success fs-6">28</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="badge bg-success">
+                                                <i class="fas fa-arrow-up"></i> 25.0%
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="table-light">
+                                    <tr>
+                                        <th>الإجمالي</th>
+                                        <th class="text-center">
+                                            <span class="badge bg-primary fs-6">28</span>
+                                        </th>
+                                        <th class="text-center">
+                                            <span class="badge bg-warning fs-6">22</span>
+                                        </th>
+                                        <th class="text-center">
+                                            <span class="badge bg-success fs-6">156</span>
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chart Section -->
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-chart-line"></i> الاتجاهات الشهرية (آخر 12 شهراً)</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="chart-placeholder">
+                            <div class="text-center">
+                                <i class="fas fa-chart-line fa-3x text-muted mb-3"></i>
+                                <p class="text-muted">Chart.js Line & Bar Charts<br>يتم عرض الرسوم البيانية هنا</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,3703 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1760880099867,
+    "data": [
+        {
+            "type": "file",
+            "name": ".env.example",
+            "size": 441,
+            "hash": "9391b58b65cfbeb8e74695849581efcd108927031367e3b2152873a694f1ab83"
+        },
+        {
+            "type": "file",
+            "name": "CHANGED_FILES.md",
+            "size": 9523,
+            "hash": "302e7699daed63a216791490e2c42dc87e4b70e80e8a2c25a406850db6053a4b"
+        },
+        {
+            "type": "file",
+            "name": "COMPLETION_CHECKLIST.md",
+            "size": 7089,
+            "hash": "bd1dabc0fa691d8434f91ffd2cc28d9b695885e3c6a3352e9bd73c003241926e"
+        },
+        {
+            "type": "file",
+            "name": "FRONTEND_README.md",
+            "size": 8305,
+            "hash": "ffbd74b209a127719cb00203aa3dc79cc54d3596bc43ae99ee66c5d9e5cf9e5d"
+        },
+        {
+            "type": "file",
+            "name": "IMPLEMENTATION.md",
+            "size": 9176,
+            "hash": "fe078138ced4d8470df52660698dedaee83352da0182ed7891bf6e2114788c0a"
+        },
+        {
+            "type": "file",
+            "name": "PROJECT_SUMMARY.md",
+            "size": 11193,
+            "hash": "b46690d9317425594a156458b2021ce4fb7b6b0bec2d006cc4b976ecf731a818"
+        },
+        {
+            "type": "file",
+            "name": "README.md",
+            "size": 7613,
+            "hash": "09a919b0eb44debb5d570ddb427e0e6fee1954f10f1f1032c6af25afe55b095a"
+        },
+        {
+            "type": "file",
+            "name": "SERVICES_COMPLETE.md",
+            "size": 14896,
+            "hash": "1127bdd72f2d1b3f7b37e395728bf1b0114b2a6b927a6015274a888b72abaee0"
+        },
+        {
+            "type": "file",
+            "name": "SERVICES_IMPLEMENTATION.md",
+            "size": 11438,
+            "hash": "074b3b6b7bee3b607f0138e4fd37f2aa4a0f62aa011e4e22035009d8b1d35bfa"
+        },
+        {
+            "type": "file",
+            "name": "SERVICES_QUICKSTART.md",
+            "size": 7285,
+            "hash": "94539e0dff3df62366ba94552e33066522e1f3ef42e3fd8729e61a487868b4ab"
+        },
+        {
+            "type": "file",
+            "name": "SERVICES_TESTING.md",
+            "size": 9251,
+            "hash": "342c7e4d515a47fcaf0f8ab989f1587f7efa34a5ec8ed76b115d386842c295f3"
+        },
+        {
+            "type": "file",
+            "name": "SERVICES_UI_GUIDE.md",
+            "size": 13919,
+            "hash": "3c9e6fac253368a08953b04347581aa7a647f4df700f542ac6eb485073ac01b3"
+        },
+        {
+            "type": "folder",
+            "name": "app"
+        },
+        {
+            "type": "folder",
+            "name": "bh"
+        },
+        {
+            "type": "file",
+            "name": "composer.json",
+            "size": 697,
+            "hash": "df56bdf425cb8608c711882d2f68836447936fc4561c97e052636e194b649944"
+        },
+        {
+            "type": "folder",
+            "name": "database"
+        },
+        {
+            "type": "folder",
+            "name": "docs"
+        },
+        {
+            "type": "folder",
+            "name": "public"
+        },
+        {
+            "type": "folder",
+            "name": "resources"
+        },
+        {
+            "type": "folder",
+            "name": "routes"
+        },
+        {
+            "type": "file",
+            "name": "setup.sh",
+            "size": 1833,
+            "hash": "3e077890f08be47e59a86731d44787bad430c5a5faac9ff2e49d3182933b4e84"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http"
+        },
+        {
+            "type": "folder",
+            "name": "app/Models"
+        },
+        {
+            "type": "file",
+            "name": "bh/.editorconfig",
+            "size": 258,
+            "hash": "d9a5756ca5adea55000be0ee4f5af68946e3554c986981b7f8e35e7acaad28fa"
+        },
+        {
+            "type": "file",
+            "name": "bh/.env.example",
+            "size": 1098,
+            "hash": "839647d043fd40279cb6a293dc89a019d2858853d00c85e1ae017bbd161c6620"
+        },
+        {
+            "type": "file",
+            "name": "bh/README.md",
+            "size": 4158,
+            "hash": "8621e137966bdfc085ef8808b1c0777f92d77d3a2cbf14b9e5a4ba2dcb16a352"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app"
+        },
+        {
+            "type": "file",
+            "name": "bh/artisan",
+            "size": 1686,
+            "hash": "f5645be808d32398cd215ef933c793d806ae56796190579dde4ca8888c584c1b"
+        },
+        {
+            "type": "folder",
+            "name": "bh/bootstrap"
+        },
+        {
+            "type": "file",
+            "name": "bh/composer.json",
+            "size": 2088,
+            "hash": "de71bc0feb780b34bf90b5cf6f3a85921c19e20423ce974620812e8c89ff16da"
+        },
+        {
+            "type": "file",
+            "name": "bh/composer.lock",
+            "size": 308635,
+            "hash": "edf31df9b1939f189225c85aaa6b9d32488f2850f808b0a0c9e4f268db20f88e"
+        },
+        {
+            "type": "folder",
+            "name": "bh/config"
+        },
+        {
+            "type": "folder",
+            "name": "bh/database"
+        },
+        {
+            "type": "file",
+            "name": "bh/package-lock.json",
+            "size": 71362,
+            "hash": "5041b80b1318b670472019154df7151127be852d9d586babd1e987eb7312cf99"
+        },
+        {
+            "type": "file",
+            "name": "bh/package.json",
+            "size": 415,
+            "hash": "ec400eaefb96b6bfb9ca012df61ef74c3e0a808612afd25d79338c77bd4aec76"
+        },
+        {
+            "type": "file",
+            "name": "bh/phpunit.xml",
+            "size": 1084,
+            "hash": "28b147ce549e633cddf03c373a73c857bc0202f50329444b0e2b278a45ff5500"
+        },
+        {
+            "type": "file",
+            "name": "bh/postcss.config.js",
+            "size": 93,
+            "hash": "c713dcb623f3a959b28f6e7f724440660f890288c7b796d8c9ce42372ee7f36b"
+        },
+        {
+            "type": "folder",
+            "name": "bh/public"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources"
+        },
+        {
+            "type": "folder",
+            "name": "bh/routes"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage"
+        },
+        {
+            "type": "file",
+            "name": "bh/tailwind.config.js",
+            "size": 541,
+            "hash": "c57c50e5816a545cbc8b412239f01fb7df1a212abec635eb000c06b6e66688fa"
+        },
+        {
+            "type": "file",
+            "name": "bh/test-trigger.txt",
+            "size": 72,
+            "hash": "084c0d9a4f6f6c7b88a111a7c649313784f4d35bf92a4e2502284150b2cab31c"
+        },
+        {
+            "type": "folder",
+            "name": "bh/tests"
+        },
+        {
+            "type": "file",
+            "name": "bh/vite.config.js",
+            "size": 310,
+            "hash": "330743eb5df510ca4aab279fa7241a6fe82267b38c5bf444dc311f7a22fa9c61"
+        },
+        {
+            "type": "file",
+            "name": "bh/z_index2.php",
+            "size": 1710,
+            "hash": "3f8e0546f5fd7659597079cb386e5147857456e1ddb8e61b0b6938a9f844622e"
+        },
+        {
+            "type": "folder",
+            "name": "database/migrations"
+        },
+        {
+            "type": "folder",
+            "name": "database/seeders"
+        },
+        {
+            "type": "file",
+            "name": "docs/VISUAL_GUIDE.md",
+            "size": 6821,
+            "hash": "120c079e0ececc9b6b48d20cf75de309c6c6e75693e00e33aa35169618c4ee15"
+        },
+        {
+            "type": "folder",
+            "name": "docs/screenshots"
+        },
+        {
+            "type": "file",
+            "name": "public/index.php",
+            "size": 1151,
+            "hash": "478164f8694e0912ad79ebeae7c08860d0377861e6d46dffb50b898131cbccd2"
+        },
+        {
+            "type": "folder",
+            "name": "resources/lang"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views"
+        },
+        {
+            "type": "file",
+            "name": "routes/web.php",
+            "size": 1964,
+            "hash": "4e9f495784478ae5c84f147ba260892c2781437d37e54b049724a5cad956a7ce"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Middleware"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Requests"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Consultation.php",
+            "size": 370,
+            "hash": "76f66fe9a40d91c8d6a51ce59914c2eefc93346898a09f36453f0db5bea49d67"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Doctor.php",
+            "size": 355,
+            "hash": "0da59fc54458e6477356cfa3a07c2061e56851ff63eec4d6e35dafb37a8611cc"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Review.php",
+            "size": 381,
+            "hash": "fc8b5d6091ab832ad90dd866fafe84ee585568be5001adf0059f85af2f8ad2a7"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/Service.php",
+            "size": 495,
+            "hash": "7a33187326ae12747e91d573c8abbfbf00c6ca2f61f3565f881cd3b97a647730"
+        },
+        {
+            "type": "file",
+            "name": "app/Models/User.php",
+            "size": 968,
+            "hash": "2cf21e05b7222d33e8e4861e8b54fd72035f00268b0c2fc0972bfb23944f4323"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Console"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Exceptions"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Helpers"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Mail"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Models"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Providers"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/View"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Services"
+        },
+        {
+            "type": "file",
+            "name": "bh/bootstrap/app.php",
+            "size": 1620,
+            "hash": "e346d041676171a900406bba87f0658b6d3aebef79bed7e7081213e7ac3c7951"
+        },
+        {
+            "type": "folder",
+            "name": "bh/bootstrap/cache"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/app.php",
+            "size": 6787,
+            "hash": "bbd628fe213274950076be26f4bfa6836df2d025410badbbb09b460de27863cb"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/auth.php",
+            "size": 4746,
+            "hash": "f0e55b5d3956eacad1d04982afe7f1ec7814cd757836d1537f6833b1467e2961"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/broadcasting.php",
+            "size": 2147,
+            "hash": "d27413cc5203b58d5458541e9cf0573036a358584ebe4a06424ad05eef4f81ce"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/cache.php",
+            "size": 3337,
+            "hash": "51714aa452a89464d270b1f7afe570876423a792d83c304e682a8b78cd134df6"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/cors.php",
+            "size": 846,
+            "hash": "7a1b9af42b73b20126219eca484ea7eb02c25a5d179eab1ac00251779d808c49"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/database.php",
+            "size": 5343,
+            "hash": "7ac5243e0c0fb6970ceb09d6a2f54f75c3a920f4f6323b01f2044ae7c74cc457"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/filesystems.php",
+            "size": 2370,
+            "hash": "16c11e34d3544712e925282c70b6c3864dc4e6ca1dda9edeaaf4154a47c0f1bb"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/hashing.php",
+            "size": 1572,
+            "hash": "6179fbf205a72d2db2f19b4787dc416811013cd05c82fb919b4d012832421ce8"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/logging.php",
+            "size": 4173,
+            "hash": "78d93d69386ab0dc2069713fd0c3c9f012d682e7f103ce0b4b59109ce077c618"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/mail.php",
+            "size": 3812,
+            "hash": "8ae72e8097beb281e87bef0f9b08b78bcc2be6f7978d16e0e45fe1b8fde5e134"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/myfatoorah.php",
+            "size": 1439,
+            "hash": "42c0aef95c838a8b8445a75b0b0feb78c756189147e7bd368cb45873826f0c30"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/paypal.php",
+            "size": 2195,
+            "hash": "22d172f1668889a68ad41d2bb6c6da5d71684a4f03db25be6f4efd7a239eda8b"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/queue.php",
+            "size": 3447,
+            "hash": "8c6f5b82008318a67fbeee5a4bf6113b462d8fbe5d09babd79f71234f3f7089f"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/sanctum.php",
+            "size": 2294,
+            "hash": "2d0c59f68caad6a6a8e59a297bf3ef3b9fb51ad26080ba2763df815376eb3d6d"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/services.php",
+            "size": 979,
+            "hash": "76f41873f7a25f3f91bcf5e8b5fecc4655b046fdefb4ab67d6f7e7ff56e73141"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/session.php",
+            "size": 7023,
+            "hash": "fbd81b73a8af2094f9731f83ce445a124d977d1cde0963529881fab6ae3ad7a2"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/stripe.php",
+            "size": 1705,
+            "hash": "61e2c0a5481fda916452e88e4e4314813b0552ad109b88970c32978a61ed3aaf"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/sweetalert.php",
+            "size": 10201,
+            "hash": "1e67384e389e12de0351cea2427f0077532ac7b369647616d6207f614f2b53a8"
+        },
+        {
+            "type": "file",
+            "name": "bh/config/view.php",
+            "size": 1053,
+            "hash": "31296429fea0b7bc8392bdf63c5a664524c84634cdcd8d54c51d73d762c4b2ef"
+        },
+        {
+            "type": "folder",
+            "name": "bh/database/factories"
+        },
+        {
+            "type": "folder",
+            "name": "bh/database/migrations"
+        },
+        {
+            "type": "folder",
+            "name": "bh/database/seeders"
+        },
+        {
+            "type": "folder",
+            "name": "bh/public/vendor"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/js"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/css"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/lang"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views"
+        },
+        {
+            "type": "file",
+            "name": "bh/routes/api.php",
+            "size": 570,
+            "hash": "b9633c027cca4f770a81885d70feda57d46f98a60d36401cf5d5eb4c850aefbe"
+        },
+        {
+            "type": "file",
+            "name": "bh/routes/auth.php",
+            "size": 2409,
+            "hash": "a0341d3ebefb197cdd2e24f2052fdc9e93f927ff7a043737d9b946502b76c5c9"
+        },
+        {
+            "type": "file",
+            "name": "bh/routes/channels.php",
+            "size": 558,
+            "hash": "5c776998675a7c7d3303b3cd0517e314755cd9d582c17b18238c3686b17d76ac"
+        },
+        {
+            "type": "file",
+            "name": "bh/routes/console.php",
+            "size": 592,
+            "hash": "69ec50e361f429e7ffaf95011f9e3cab75481ad753405755580e8e89b1518b20"
+        },
+        {
+            "type": "file",
+            "name": "bh/routes/web.php",
+            "size": 27176,
+            "hash": "080c59f235d4bb2c45ec39aba84cb7bd8231d8c4c8246c6044c02cda06228db7"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/app"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/logs"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/CreatesApplication.php",
+            "size": 375,
+            "hash": "ff49d2d2197546e6730769fd4f11e1acf7169b83cdeac102af5d77c07f748898"
+        },
+        {
+            "type": "folder",
+            "name": "bh/tests/Feature"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/TestCase.php",
+            "size": 163,
+            "hash": "fde47044bae82a492f646384cbc1e636b93c6bf0cea7047c3631e6a26736154d"
+        },
+        {
+            "type": "folder",
+            "name": "bh/tests/Unit"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2024_01_01_000000_create_users_table.php",
+            "size": 808,
+            "hash": "6a8c22e6e98284ca71719216194372e30fdc74577d11086dd2b816c45bcbb021"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2024_01_01_000001_create_reviews_table.php",
+            "size": 707,
+            "hash": "4b8d85296b6d2cc5654f24ad5a4d35e86c2967e2a0eb74c322bd694530b47f27"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2024_01_01_000002_create_doctors_table.php",
+            "size": 625,
+            "hash": "bb09366ea5a61b03ab01aa2afcb9d20f26084f43a3a5a1bdb6dec732d4db4235"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2024_01_01_000003_create_consultations_table.php",
+            "size": 714,
+            "hash": "bb08bc03b2e6582aa4433ee15901d405a828329188511928e64b7957b8f12afd"
+        },
+        {
+            "type": "file",
+            "name": "database/migrations/2024_01_01_000004_create_services_table.php",
+            "size": 945,
+            "hash": "2cdea50a95eb6d1c01d5dd9228ad76c99334b2f1d790590c6ff363e5598c37f2"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/DatabaseSeeder.php",
+            "size": 3542,
+            "hash": "a902879e802715d57e5d60586737f45fe7b92231e8bfa298cee1c6c7b963af2b"
+        },
+        {
+            "type": "file",
+            "name": "database/seeders/ServiceSeeder.php",
+            "size": 3038,
+            "hash": "3a0180ac6ad34e3eced4848ce8a180b79004e92f66aafa4ca44a09f7fc8bf958"
+        },
+        {
+            "type": "file",
+            "name": "docs/screenshots/admin-reviews-demo.html",
+            "size": 12210,
+            "hash": "32aa2c0dc7411df873381a7e77dc31131fe63105a560535cb03b104f8be60b7f"
+        },
+        {
+            "type": "file",
+            "name": "docs/screenshots/admin-reports-demo.html",
+            "size": 12700,
+            "hash": "1e23f9b401f87c7a308b21f29ef87414f5dd2c932122ad112d2c8775fb8e86c8"
+        },
+        {
+            "type": "file",
+            "name": "docs/screenshots/home-demo.html",
+            "size": 12363,
+            "hash": "e04b30fede26c84e4b217b1338e73bb09321298f9c3d5d5ad0c007d173ddbf6d"
+        },
+        {
+            "type": "folder",
+            "name": "resources/lang/ar"
+        },
+        {
+            "type": "folder",
+            "name": "resources/lang/en"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/admin"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/home.blade.php",
+            "size": 5467,
+            "hash": "eae2aeed0f27d51bb8973e7fb8bd5eb7f9320eff02247a14919f634da7a0636f"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/layouts"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/partials"
+        },
+        {
+            "type": "folder",
+            "name": "app/Http/Controllers/Admin"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/HomeController.php",
+            "size": 507,
+            "hash": "4ce00c1f5f5201d29db1a29f7c3ff511db446c680dc0f8b97db3699fa51c9955"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/ReportController.php",
+            "size": 1958,
+            "hash": "1dc00c73755b802ba008359ccfb3d52d6cd68b465dadd143e9efacdaf291f418"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/ReviewController.php",
+            "size": 1773,
+            "hash": "99819f45c598d492feca0fe056c2098965d4fe90950f8fa7c2573a2a9c8f15cd"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Middleware/AdminMiddleware.php",
+            "size": 605,
+            "hash": "6cf455f72f51912e6cb7abe61c3e908c367af33938572fd9594b942d92b66759"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Console/Commands"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Requests/ServiceRequest.php",
+            "size": 1556,
+            "hash": "d19ee0450793611b8665cc44601a9e097dc7390bba67c02c50e2e7b6891f5912"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Console/Kernel.php",
+            "size": 573,
+            "hash": "9e0488a4a187421215b8d896ec681c64da6b90527b27013a20a4dcee08fa17e1"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Exceptions/Handler.php",
+            "size": 639,
+            "hash": "e61ed0430e8da3ead07e49e068ab42457e5c4e5e5f2973382137e5d2dd4cb377"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Helpers/Helper.php",
+            "size": 4720,
+            "hash": "bb1eb37077462315f3a6f744b5d167ace9bb4d160fff6e977a9504e99f562c34"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Controllers"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Kernel.php",
+            "size": 3009,
+            "hash": "245c3bf51a875911af53dc11b745f12865fcc667d7428ffe63dc7d068c924981"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Middleware"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Requests"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/AskForAppointmentMailable.php",
+            "size": 943,
+            "hash": "d187e3c910fad0b1fa9400a82aac7a9d4e4c2b9a65e3a24f09c3fb762f4dd04b"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/ConfirmOneAppointmentMailable.php",
+            "size": 992,
+            "hash": "15c43598de325fef9d2d8c17369affdae6b27effb745f8d2fb728b9075df2f79"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/ConsultationMailable.php",
+            "size": 740,
+            "hash": "fafff2399bf7751f675fd803b2ccee83ff5e90e84a394892604965a7ae518bad"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/ContactMailable.php",
+            "size": 773,
+            "hash": "8d16878fcd43da636555b8a044cf9e0e33b250ea3fb0bd0175fbde52b24c0b0a"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/ReportMailable.php",
+            "size": 923,
+            "hash": "b457842c036cdf3c7e73db4d4f40f6d0640721d66efea94a9e1b2969eb3ef58f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Mail/SetFiveAppointmentsMailable.php",
+            "size": 985,
+            "hash": "4b5eda67ecee62659f80f7eb06d53c9e6c506101e20ae111b37b83fe3e287b33"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Admin.php",
+            "size": 1048,
+            "hash": "0cfb7542d85d30899301c7a9dc37bb955b1ae3023da014a519e1039b7ea4f5f8"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Appointment.php",
+            "size": 684,
+            "hash": "b8bae3745a6b4e6d1489199291cd9598d52f6d7aa0b732d81829463332455cc2"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Carousel.php",
+            "size": 372,
+            "hash": "0d2f915cc1c495b119678b515b7f1051dafa7c0c5bebbfeaf904b8866361d187"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Client.php",
+            "size": 631,
+            "hash": "4222586a01d5fa2570b51893dd50b87475630daecea520dd1d5b62b7ca2aa9d3"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/ClientCategory.php",
+            "size": 502,
+            "hash": "4bfc8df66e086e024a536df4baa54ee99c8866ece971859616f02dc96ae2120a"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/CompanyModel.php",
+            "size": 370,
+            "hash": "1319263a0efb0edafc2a43a2ed351be3a2f22c5d4d97ebc9a00bc710ebfaf114"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Consultation.php",
+            "size": 910,
+            "hash": "0f8781eeb15d1b0a55ec02743ad2f4f651faee63a90097e00b11a6352a4543d4"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/ConsultationFile.php",
+            "size": 415,
+            "hash": "7414e9c60df271849874e52319b2e2c8a6a489c94b9f1d6ab9d4886784534021"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Contact.php",
+            "size": 802,
+            "hash": "56c006a8d27c5761a6e60b944d33556ee740516bbfdffbe650a9e570962691ac"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Country.php",
+            "size": 513,
+            "hash": "e5fbc4f4253b2918a9c116519a1ff8f1d1705ac49f469cb570f8e09c3a35c753"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Coupon.php",
+            "size": 296,
+            "hash": "3c49256b2686a8cf206fd53dbdc553a3cb5ce22a6d22319651032961f4130b4d"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/CustomerModel.php",
+            "size": 396,
+            "hash": "2e95a3d04ce2709cc386ee30410ce214b06b04349caa5f0941ff486ba352a5fb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/DisclaimerModel.php",
+            "size": 303,
+            "hash": "7780cdc7aa0c501d192ba198bd4e6ccdf0e970e8d3bfc01d8b24853dd772b71f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Doctor.php",
+            "size": 1725,
+            "hash": "e9ad583f67219eaa4447e3f3885cf99f7933dd30530ccf86ca59ef97174bd8b2"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/EventModel.php",
+            "size": 538,
+            "hash": "74b86087fe906161216575bf7c8262490b81366f90c99724b5f1f623f64e2130"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Faq.php",
+            "size": 352,
+            "hash": "20d38390f7ac16467c903b3131d812032ec771115c1413116be4e5d93220c8eb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/HowWeWork.php",
+            "size": 327,
+            "hash": "237053472341980dbc7dd6768ae3adbe7ba6c072f930fd9707ecec938e92a4bb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/News.php",
+            "size": 491,
+            "hash": "e16f195b0a6d344a0d6bd50c58219d81ec5cfb74c4fcb052bdeaaa1321eedc9b"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Notification.php",
+            "size": 392,
+            "hash": "a8d77506ca58aa867fb6a4198e1bdecab1ff86fc629d2be8b9c59fb13a647538"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/OrderModel.php",
+            "size": 388,
+            "hash": "d446a31dbd0f92924d3ab295b481c4207da3476c21b18412f1353d8941436066"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Partner.php",
+            "size": 341,
+            "hash": "3e2cb5a35c7fca46b3106d69e1645abbadd53e6105da8207285b6748030bbc3c"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Patient.php",
+            "size": 828,
+            "hash": "413f9a9951d8e9a8450ab703fd2d751eb533eed478e8b7ad7d0a9e13ada319cb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Payment.php",
+            "size": 783,
+            "hash": "7528f9a46be2414e528ce8df323f2f98a56305406acb22f493fdad5be7950e4e"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Portfolio.php",
+            "size": 498,
+            "hash": "721179d51c68314ef8baa8ca34e87a74c28c92f74e352317992444f55a0fb6f0"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/PortfolioCategory.php",
+            "size": 582,
+            "hash": "94712d692a86c97c8feea8172f218d222d6ae02fd3c25b7aa43091d076254381"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/PrivacyPolicy.php",
+            "size": 342,
+            "hash": "c354cbf8809246132571e458afda46159b043f55f1585bd94cd3da664d627fdd"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/PrivacyPolicyModel.php",
+            "size": 343,
+            "hash": "2a7ee42f6566054b32620e24a7693bf546c801ec02e59f4cdb9b67518f01a2d3"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/ProductModel.php",
+            "size": 420,
+            "hash": "e371f239995920650a3935cf6e0053b6b03e59af34cc4d7686a730bc6f769940"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/RefundPolicy.php",
+            "size": 301,
+            "hash": "277eae49a5dd7119a0d27e17748caabe5d52933e15400fffd0c162d085071892"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Service.php",
+            "size": 415,
+            "hash": "6a3581d5fd5596a3d91c6f417693bbbeed1563bd7362eba5d4ed81659888f504"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Specialty.php",
+            "size": 481,
+            "hash": "72a6164fc377130f731b2af6bceed672ea59f8edaaaf9099d6de68360d007ce9"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Settings.php",
+            "size": 351,
+            "hash": "280adcaa223cd511835af1ba191433814c4e5ef5345153e04e0cabf9807fc250"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/StoreModel.php",
+            "size": 773,
+            "hash": "a1a4a8afc257ca4764917cfabb940a76541bc05c751003d25b33c6b419f81718"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/TermsAndConditionsModel.php",
+            "size": 314,
+            "hash": "02a81d734676e767defd6003bd642a472a21b8c4c6f82b93b860cbaac40fcd46"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/TermsConditions.php",
+            "size": 308,
+            "hash": "1bd94a24325c178b07ab75084d42e0b762d49e9f1c5873bef4ce10e4d4de0614"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Timezone.php",
+            "size": 483,
+            "hash": "0a2c027b82686a4f5f9e2bee704a9e894d257825c6c36bf64aea462126f75910"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/UsageConditions.php",
+            "size": 307,
+            "hash": "bb61650765113b907ee8e135c922366d5ccf3443cc6e350aaad6720848f0c317"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/UsageConditionsModel.php",
+            "size": 346,
+            "hash": "b24e7a3e461e8e0668378ebab883c9826237b0c67efacca166b0b38d8ea71b2c"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/User.php",
+            "size": 986,
+            "hash": "b504937da7b1ef081af642487bcee2956c4fe394800a81ff6c2888cf6afaf885"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/UserModel.php",
+            "size": 388,
+            "hash": "dfb110296e37c3153c3f07f6c10d196f905396543c2aeddeb3da24ab5fb93027"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Video.php",
+            "size": 433,
+            "hash": "a282ec36761e6a14e7af2f9f0ea5f03c00d6826fc5573a9ece41b5b8ade04ec5"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/Whous.php",
+            "size": 413,
+            "hash": "cb5882ceac4cb72cd6199277a299191e0dffe6043db8534551059b6fabbfea09"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Models/WhousModel.php",
+            "size": 411,
+            "hash": "88346796b824a6f8d634eabbe63c3688dbebd64da41c45885357f739d57e4075"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Providers/AuthServiceProvider.php",
+            "size": 518,
+            "hash": "5d44e4fac82838d15cbd319fdc152fc29f93945c09c2dbecf92132a18c6ab314"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Providers/AppServiceProvider.php",
+            "size": 2469,
+            "hash": "7056814808549961a77a579d2389ed4e05c4d5e733b1ed511e7b9440cbe69531"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Providers/BroadcastServiceProvider.php",
+            "size": 359,
+            "hash": "1839af2f801cb9fff772430aa25aa7529b1e7937b2441555c70af4fae1541a99"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Providers/EventServiceProvider.php",
+            "size": 884,
+            "hash": "c0f2d7d14531d8d92edbe4f1c5ed50973213cb4a119d79f8d2c1dfaf849bba78"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Providers/RouteServiceProvider.php",
+            "size": 1106,
+            "hash": "57775afc60bc2e926b4c08476a0b611dfac194fac15636c7cbe91927702b1bfa"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/View/Components"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Services/StripeService.php",
+            "size": 5293,
+            "hash": "e1d692bb35d4d6d8eefbc870e779deb29729c496ad05d59c0fe8272746c6ecad"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/factories/UserFactory.php",
+            "size": 956,
+            "hash": "8d832fa729bca0e23ffe803387f2733206c6ecb857618c1f1c3928e848cb73c9"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/migrations/2014_10_12_000000_create_users_table.php",
+            "size": 752,
+            "hash": "a0f9ee3c1bfd07c1e00fb36f4165741a9a939e9bbb4bb160ab3f91325703bde5"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/migrations/2014_10_12_100000_create_password_reset_tokens_table.php",
+            "size": 641,
+            "hash": "dca550bb71abdc837debddc9baa9e14f85dd121cd78dc811cdae07a54656252a"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/migrations/2019_08_19_000000_create_failed_jobs_table.php",
+            "size": 768,
+            "hash": "1b2dc826a38de3e6cdd351fc5e0b96689440086e8027454453347036f1860ef3"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/migrations/2019_12_14_000001_create_personal_access_tokens_table.php",
+            "size": 856,
+            "hash": "5a9c64d94d29ec6c435625b8a4d0d3c898b9bad042b5a3ac64f11d39c2b3610f"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/migrations/2023_09_04_060239_create_doctors_table.php",
+            "size": 775,
+            "hash": "c7c7f2f04b7a2cae60ceef02ed699d01426ba37fa2043fde557eb4bfe0094cfa"
+        },
+        {
+            "type": "folder",
+            "name": "bh/public/vendor/myfatoorah"
+        },
+        {
+            "type": "file",
+            "name": "bh/database/seeders/DatabaseSeeder.php",
+            "size": 471,
+            "hash": "b52098a4538fd9fbf6cf2b031c6b99b119dfbbdac62c79779dc6cbf463f22534"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/js/app.js",
+            "size": 96,
+            "hash": "ef2d6f5db880db7aa4407c2d3930e6ca3c298ae19182aeceae5b4b889ff284f4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/js/bootstrap.js",
+            "size": 1248,
+            "hash": "326ba857c524b23ca3b95a34cf26e9ad2e9c9a9e7605b3bb163d96b2e2b7b2aa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/css/app.css",
+            "size": 59,
+            "hash": "cc1a7ad0d019ddb1d32d0ecb588ba0ac26ce41d8625dd6c366348b25f83a28ec"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/lang/ar"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/lang/en"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/auth"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/components"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard.blade.php",
+            "size": 513,
+            "hash": "062ddb4dc3e77516e3a3aac11a9e7c2ff6dcdb8b9b3dad1d68fe076a900503b7"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/email-forgot.blade.php",
+            "size": 15829,
+            "hash": "c3c994e2f0767226917172d98e7e5070dc1542fbfd9f9bdd3c975c4350c70342"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/layouts"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/myfatoorah"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/partials"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/profile"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/welcome.blade.php",
+            "size": 28709,
+            "hash": "1ea5f91b2d799fafae813a1a974923c1b3ac3d610b26d74cc83a756167188bb4"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/app/public"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework/cache"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework/sessions"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework/views"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework/testing"
+        },
+        {
+            "type": "folder",
+            "name": "bh/tests/Feature/Auth"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/ExampleTest.php",
+            "size": 359,
+            "hash": "aaa4a192fb4aa96d4e81eda06a29968da3d9a73b71026b87a67297e66dd985b8"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/ProfileTest.php",
+            "size": 2501,
+            "hash": "3138e455512864a42ac6e16af1fb75760b113e9cfab0684119048f1393941544"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Unit/ExampleTest.php",
+            "size": 243,
+            "hash": "ffacae5c1a2a44c809420af5b3b404910da1b12167d58764dac6d10b8ba8cfaf"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/ar/services.php",
+            "size": 1903,
+            "hash": "ce4ccdcfee072c062154583680d5fd119587e44df8b2eefe7a56a03f10b0a9e4"
+        },
+        {
+            "type": "file",
+            "name": "resources/lang/en/services.php",
+            "size": 1586,
+            "hash": "8e87edee5ee71ca8df5a07e0465031e489dc0865c82fbbbd2a249417d129bff1"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/admin/reports"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/admin/reviews"
+        },
+        {
+            "type": "folder",
+            "name": "resources/views/admin/services"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/layouts/admin.blade.php",
+            "size": 4270,
+            "hash": "f99ba41e7a051764fe12cfaf54cc78a47c9acf115012e9b13c31a6c8f15fa438"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/layouts/app.blade.php",
+            "size": 2216,
+            "hash": "119fc68c6a6fa8e8fff9b3de5b737cafea50e07350383548d45a8b94114024ca"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/partials/services.blade.php",
+            "size": 1925,
+            "hash": "b39c925854f4bac0a77c14605fc3d167689eb5a91e224031e23adb34ee2348c5"
+        },
+        {
+            "type": "file",
+            "name": "app/Http/Controllers/Admin/ServiceController.php",
+            "size": 3407,
+            "hash": "37b0f10ae5855b5e6f177296bad509326428d4d5db35e6d1a743ea5d892cde2c"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Console/Commands/GenerateSitemap.php",
+            "size": 1026,
+            "hash": "67bb83adf71ffd6c501cfb7b6bdbcf2f6e2481ea1c15e3a4b53b849f39079f83"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/AdminController.php",
+            "size": 5877,
+            "hash": "fc503505c9efb9da83e756bf70d1bd7ae3c038a1cf5e7c41d77e52cb8366aa58"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Controllers/Auth"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Controller.php",
+            "size": 300,
+            "hash": "f6077c1b40211f830612f2f2fd2608a66894440a9beb0f723007bb674cb48493"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/MyFatoorahController.php",
+            "size": 12312,
+            "hash": "b77586ae24fcc30346003002fb31be7d3d3d52c7a0c627c16c37ee360e353b08"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/PaymentController.php",
+            "size": 5568,
+            "hash": "606ba16c0ebbf370ceb7e4908c3bb5b46b4a0b3e75e2dc6a9b1241e5b4262222"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/ProfileController.php",
+            "size": 1416,
+            "hash": "01586a456c9162ecf08234897b47ab29828e67b185e68983932ecc41a76ed355"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/StripeController.php",
+            "size": 11084,
+            "hash": "a4b06ff04f5a512235fac5345ab0c52155e000213d6a84098f5a3aa03cafe07a"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Controllers/site"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/Admin.php",
+            "size": 678,
+            "hash": "2ffce083ced5da91e4c510390ec503e09f4dc66f225099515705f46b6cb6409f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/Authenticate.php",
+            "size": 409,
+            "hash": "c69d845968ffde805f6a18a062a42023ee921f990a0f41ff61bdd23de24f3394"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/Doctor.php",
+            "size": 676,
+            "hash": "ad4a961453337dc1da7d8a0d87d26e5d5685b19905598436ac4e94a31496a335"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/EncryptCookies.php",
+            "size": 307,
+            "hash": "958e86e38afd4321b443b8c4aaef17fc956bbac93410d54af2f74213c52e9b87"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Controllers/dashboard"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/RedirectIfAuthenticated.php",
+            "size": 760,
+            "hash": "8875f7d265d5222ef41ca7f401908fd600e5d831f5694e322e6ddd607a1968bb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/SetLocale.php",
+            "size": 594,
+            "hash": "71d928c003d7e8c733d4aa0eed3031ecb0d3dc4f8fc40082382e36f73241f7bf"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/TrimStrings.php",
+            "size": 381,
+            "hash": "107bf2dc8b970b2956548ab63221b350587f1fb94792f786f047723da5e2c615"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/TrustHosts.php",
+            "size": 379,
+            "hash": "899cfaccd4420dfa7c15c0e650e22e5397bdc699344576518b8f972be45b17dc"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/TrustProxies.php",
+            "size": 649,
+            "hash": "9ba084335e120f472f21ced3e062e07dca6333e8ba91029e44dfec485f9c6485"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/ValidateSignature.php",
+            "size": 460,
+            "hash": "b63174bf5ac6fbb47dc97cc29e243d68500c27fa1845961a789df1587b8a35d4"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/VerifyCsrfToken.php",
+            "size": 320,
+            "hash": "4cf686438284e60066d1851141afb196540df76bb0c923dd761d6fea82558f40"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/PreventRequestsDuringMaintenance.php",
+            "size": 366,
+            "hash": "63a907517beed52be7dad5dbda73e9ecd504b1cece86a80c007526998e146974"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Middleware/Patient.php",
+            "size": 680,
+            "hash": "635b0c3b9daf87ac90b19f582086a418585de6aaba28bf93f976d4d106b67921"
+        },
+        {
+            "type": "folder",
+            "name": "bh/app/Http/Requests/Auth"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Requests/ProfileUpdateRequest.php",
+            "size": 568,
+            "hash": "690d930be2d33510a98425a49c0ae01e81af5ba16e9f4c84d98c48e4e3bbdca7"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/View/Components/AppLayout.php",
+            "size": 296,
+            "hash": "c57c4ac36e5603ca09b66674a3a01b427528948ecf1f7a93d06d52818d9319b5"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/View/Components/GuestLayout.php",
+            "size": 300,
+            "hash": "35663740cd39dc5f726b24e402babb41d0af62e09567c0e717235586fa3d9f80"
+        },
+        {
+            "type": "folder",
+            "name": "bh/public/vendor/myfatoorah/css"
+        },
+        {
+            "type": "folder",
+            "name": "bh/public/vendor/myfatoorah/js"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/auth.php",
+            "size": 674,
+            "hash": "029823d4e0f2a8cce3b9ccb90e3eacdb4c9f28947ba59a5525bd39c14c869716"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/myfatoorah.php",
+            "size": 1614,
+            "hash": "89a76ce830250c360eaef4f244c3dc53b6be3163c03004c3f17fa1ba9e2968a3"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/pagination.php",
+            "size": 534,
+            "hash": "5c9bed6d2c965666d0c8b9f17f93f87cbfc7a240ead19b3b061764e8238e219f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/passwords.php",
+            "size": 744,
+            "hash": "1033d4d34a49e17610dee7a13e14d13525472a96396a96c07d3870f337e10498"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/stripe.php",
+            "size": 1190,
+            "hash": "58b7385756dd2eb8f799d20555d634123c3192912fe72413ff763c862574e073"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/validation.php",
+            "size": 8536,
+            "hash": "6dbfd731f4c50433acf81bb948b168dbf4c3465704a14fd21d1ec39ab65915d6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/ar/site.php",
+            "size": 13185,
+            "hash": "c1b37e87e423e7aab089ab18a95d48ea3bdf5094db37a794346eb78343c6003d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/auth.php",
+            "size": 674,
+            "hash": "029823d4e0f2a8cce3b9ccb90e3eacdb4c9f28947ba59a5525bd39c14c869716"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/myfatoorah.php",
+            "size": 1303,
+            "hash": "a7821e1bcb63c1d2f2b64db9fd2e8a33e8e243f99c7288d1ea000356d2824f77"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/pagination.php",
+            "size": 534,
+            "hash": "5c9bed6d2c965666d0c8b9f17f93f87cbfc7a240ead19b3b061764e8238e219f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/passwords.php",
+            "size": 744,
+            "hash": "1033d4d34a49e17610dee7a13e14d13525472a96396a96c07d3870f337e10498"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/site.php",
+            "size": 10919,
+            "hash": "6daba4d48dce0bee7ffc2939b32d8c900e146b6e585c2f43b4f6536e3734b444"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/stripe.php",
+            "size": 936,
+            "hash": "d80073fedab75712a352844cedd46a2be93a9b4c99481686867dd04a71bd1eb0"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/lang/en/validation.php",
+            "size": 8536,
+            "hash": "6dbfd731f4c50433acf81bb948b168dbf4c3465704a14fd21d1ec39ab65915d6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/confirm-password.blade.php",
+            "size": 886,
+            "hash": "9ece17ff21c1386fffb358c88840633a1cd1310646f1bac1cdea8ce644bddac6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/forgot-password.blade.php",
+            "size": 981,
+            "hash": "125ad1d6cb5abb68b99edc7609503f8d12fca9583dcc1f612a2466866a68701e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/login.blade.php",
+            "size": 2013,
+            "hash": "daed0f7cefcd3edfbd2d4aae52f3a2fe77d8d92b013ecb2f902cd1bb8a13b7cb"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/register.blade.php",
+            "size": 2243,
+            "hash": "4451a67476328f6f201295a1a84013aa04f73943f3157d1e8d20e566d2232ad4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/reset-password.blade.php",
+            "size": 1646,
+            "hash": "5538223153ebf6c589639ca7c089093f5b91d9edb2eff781d4d4b536d11ef753"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/auth/verify-email.blade.php",
+            "size": 1246,
+            "hash": "f20f99b5f219c7a45317030110b4fd8c3187d04d0273259bf6e81944d91ccd3b"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/admins"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/auth"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/carousels"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/consultations"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/contacts"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/countries"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/coupons"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/dashboard.blade.php",
+            "size": 6924,
+            "hash": "416e57b34575647050f729c1c94d1eabe11306c9b0e956564c12a826e95b6d94"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/disclaimer"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/doctors"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/how_we_work"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/patients"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/privacy_policy"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/refund_policy"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/services"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/settings"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/specialties"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/terms_conditions"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/timezones"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/whous"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/videos"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/z_dashboard.blade.php",
+            "size": 79,
+            "hash": "12dfc31ed4bec64386f04bd94b2a97f371213361688acd72f06e6c167e365db1"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/admins/usage_conditions"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/application-logo.blade.php",
+            "size": 3045,
+            "hash": "ad0b1c3fa2a891293a2ae718b41a10879d53e88d26f892a20db2774c6661fc60"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/auth-session-status.blade.php",
+            "size": 160,
+            "hash": "380b89ba08f51ff4c48c0800a841184fd7d9eebab702803ceb1d2bffb58e5ba8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/danger-button.blade.php",
+            "size": 380,
+            "hash": "fe2ecafdfdf06bb56590382d6d7d225ab379bd6780fad24e3acc86477b0c082d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/dropdown-link.blade.php",
+            "size": 216,
+            "hash": "fcb2fdc9ce3cf5c9507f4c49b48359f268ed57895ed18ac262152b3bdd465060"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/dropdown.blade.php",
+            "size": 1330,
+            "hash": "be4e35167ff20c88b14a379dfa4b7a0c0cf8a18027828b384e74dd923be16735"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/input-label.blade.php",
+            "size": 143,
+            "hash": "ae90330137ff955f0717de778bd134622926f67807339dda043d27ed2c42da69"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/input-error.blade.php",
+            "size": 241,
+            "hash": "69bf80900ce564877e82ca3736a2336549a92afb8650a065be9050a94a599733"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/modal.blade.php",
+            "size": 3122,
+            "hash": "9bb773512cccf9f4c8f8e62ce258f2b98281361646e74a2b6d7079ffe7917db4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/nav-link.blade.php",
+            "size": 605,
+            "hash": "68dd26a311758ea91cd58c4eb5b495929b0b64788b486429d92e34922bfd700a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/primary-button.blade.php",
+            "size": 404,
+            "hash": "48d3a3b0d0e12960450b6ac3c15d1de54f73e67f2af10e92c5e2b1d5a3a54af5"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/responsive-nav-link.blade.php",
+            "size": 686,
+            "hash": "fbadd9f54ba912828b4d530fd7c5e69e64901ff6f8314e7e348f395317a72c99"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/secondary-button.blade.php",
+            "size": 393,
+            "hash": "52266b595818c878ca31ac1c3a3c1ada0977a0e0fb71a9db7da9fb215e5a8932"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/components/text-input.blade.php",
+            "size": 199,
+            "hash": "c78a9bd64dabfe0df5a1d6c336e23be7f8a102a6330e0a53939ad2f9dbdf9388"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/carousels"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/customers"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/companies"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/index.blade.php",
+            "size": 6620,
+            "hash": "c5491943c3556566a6835aabec2b421c8c3a6abc90c144dd967032bb6d2b3927"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/login.blade.php",
+            "size": 3221,
+            "hash": "8b63fd39e3c984ff6ae69c1d9337838c9c447b81d624f251a0ff49e428f5e04f"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/orders"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/products"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/payments"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/reports"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/stores"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/users"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/layouts/admin"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/layouts/dashboard"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/layouts/doctor"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/guest.blade.php",
+            "size": 1144,
+            "hash": "59520d16ba2824c0a7586c5792dd57501110663ad233bba2a0e62ab4e500523a"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/layouts/site"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/checkout.blade.php",
+            "size": 3772,
+            "hash": "d5de113269a0630862e4c1397a06d9fec1ea167abdafe93befc7059d6008bc19"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/error.blade.php",
+            "size": 450,
+            "hash": "3a3a9b7481ea5af1af3c388941c94101b1fe107f2464db9a131984fed4f1c2bb"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/myfatoorah/includes"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/partials/site"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/profile/edit.blade.php",
+            "size": 969,
+            "hash": "37eecd8407f2580b41e7c8533eeefebfeef9070317f9ac924607aa32a4f0f001"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/profile/partials"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/appointments"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/consultations"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/contacts.blade.php",
+            "size": 3909,
+            "hash": "c7ff8642c90773fba0d4f21e088b196997e1e8f17a373f726552c791f45b8dbc"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/customers"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/doctors"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/contact_email.blade.php",
+            "size": 381,
+            "hash": "fd649ad3568f2372b02e4581258d66f82fe8889a0e13af286190e4b7e98985b6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors_in_all_specialties.blade.php",
+            "size": 9079,
+            "hash": "e7b04584a9f2da0e8a4409cfffbe610ba5d3fe767a29f83c3debe59084863259"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors_in_specialty.blade.php",
+            "size": 9131,
+            "hash": "ef8d3f454bc8755c94b9d5d61b4e114056498a176fed840a227ac72328066aaf"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/emails"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/how_we_work.blade.php",
+            "size": 1707,
+            "hash": "912a7b3e254c95b05756871e920f623f19364cac330d4afd1cf81536c6709a32"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/index.blade.php",
+            "size": 2175,
+            "hash": "1c3d1988624a5af58c8caf9fdba84f97575920dd07963a2b7c2fd57e96d3ceba"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/orders"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/patients"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/paypal"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/privacy_policy.blade.php",
+            "size": 793,
+            "hash": "1422542c635c569b46056e921b6bfb3e4cf1fba35a07cbbe4430e0ba3d3e3d95"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/products"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/search.blade.php",
+            "size": 6394,
+            "hash": "2bf45cb9d3c3630108ccf49baa6ad8769577177187579af6f5dc6126327dbb05"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/refund_policy.blade.php",
+            "size": 894,
+            "hash": "d8cdda03cc27c033536e962a9ce3f5e69c77d78c3006301807ad2f3f73e366d8"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/services"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step2.blade.php",
+            "size": 4723,
+            "hash": "7ae82fb860a8fad53ce0399087e532e7d755651142a69684b638d093d0e00ed7"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step3.blade.php",
+            "size": 12229,
+            "hash": "eb9a1435d5272f40faad63a33232727e18c0270e1afd56c368ba7d86e7873563"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step4.blade.php",
+            "size": 13406,
+            "hash": "bd241cec639dc58856c4df25b5316802e0e1bad27ad099355099a3755213588d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step5.blade.php",
+            "size": 5172,
+            "hash": "a1d32f024b5133e316d25f023608375e976ab5b937b3fcf7d2d5c185ff6b8af9"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/show_video.blade.php",
+            "size": 5400,
+            "hash": "082cdebd3d74c2c2fd6aedd2d54eceaa400a3ceb08c9e22a88b06606501bdf63"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step1.blade.php",
+            "size": 14054,
+            "hash": "8c4e307ea1b3ea2143278814c5acb8429444844f01bbfa33a6d94006bed980fd"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step555.blade.php",
+            "size": 4030,
+            "hash": "8632ee0fd2f0103a1ae44c9b89780a7d03b745d06e47e1646f615903310946ea"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/step6.blade.php",
+            "size": 244,
+            "hash": "79eb6fc050f2529dd98f2f650905bdd40a27b084258cbc386f106e0d0664e636"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/steps.blade.php",
+            "size": 9176,
+            "hash": "9dcfffaa8fc2ab8e183e5d0c4ff0c31d953e356cd00f64b4f3cd0c53c0f00e8b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/stores.blade.php",
+            "size": 213739,
+            "hash": "8998c2c8fd61dc68239ab337513bb61870c1442b4990cb3788d908c8e0073cee"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/terms_conditions.blade.php",
+            "size": 906,
+            "hash": "0d40788c4110e6cfeb39f9c61b7d750afd5af2919b25f86cd14e7a8fe4feba72"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/whous.blade.php",
+            "size": 2822,
+            "hash": "5c37faeddaebdcddda5e1112f88dcb41076b978efe2706f6c184faec786e6dcf"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/z_step555.blade.php",
+            "size": 4030,
+            "hash": "8632ee0fd2f0103a1ae44c9b89780a7d03b745d06e47e1646f615903310946ea"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/z_appointments"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/vendor"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/z_doctors"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/z_layouts"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/z_vendor"
+        },
+        {
+            "type": "folder",
+            "name": "bh/storage/framework/cache/data"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/AuthenticationTest.php",
+            "size": 1062,
+            "hash": "97947ece92fa7632cfc19b34d730d620c32ee10e426c153f8d004fb33d7a8afb"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/EmailVerificationTest.php",
+            "size": 1790,
+            "hash": "6ff6919ddfa4fec8ef477f357d5b7d64c5990227751fba1da6fa269b3c5aab84"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/PasswordConfirmationTest.php",
+            "size": 1082,
+            "hash": "255e0c8d39d61cde86a497fa845aae4e0a4f593f83d4c3591e8f149e68e696e3"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/PasswordResetTest.php",
+            "size": 1926,
+            "hash": "6532c57beab9e63183887f5cfff0fda4479c468bdaf18ea4ce8cd97cc9ecba7b"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/PasswordUpdateTest.php",
+            "size": 1409,
+            "hash": "b27324ba50657f96d4ae98b15c413e0b0c5c475d84120b983227be70bc6189b2"
+        },
+        {
+            "type": "file",
+            "name": "bh/tests/Feature/Auth/RegistrationTest.php",
+            "size": 782,
+            "hash": "9549afcac774e235dc937b5d1ff63471a36ece74e4917cc79ff0adebf128ba5e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/admin/reports/index.blade.php",
+            "size": 10300,
+            "hash": "02f5a700c2911d2cd9998898db86d59c06455c235b52ceb42de1a193425bf81e"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/admin/reviews/index.blade.php",
+            "size": 13079,
+            "hash": "909c22066735f86f48b5473a390725e0bc082e0a817ca9e70261e51e9b666269"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/admin/services/create.blade.php",
+            "size": 7260,
+            "hash": "58f74519e810d4091fc3d4d749928792a5b576544bfec1232c8f2d505c34b483"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/admin/services/edit.blade.php",
+            "size": 8110,
+            "hash": "7e895839ee5566d309dd842036660cbdfa5e28e43024305e9626b33020a29478"
+        },
+        {
+            "type": "file",
+            "name": "resources/views/admin/services/index.blade.php",
+            "size": 6962,
+            "hash": "1b72ea51a226df1c652b3e873a23e16439e0ba3c20805073bca734b251cf229f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/AuthenticatedSessionController.php",
+            "size": 1069,
+            "hash": "d3f34cd6bf783f348ea033e755c951005abe4782a3b1655b66bfa6825c7e20c9"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/ConfirmablePasswordController.php",
+            "size": 1055,
+            "hash": "ef9b28ac6d6807823297254b19a4308bd9d3c5e145334efb686c03851ae8ec3d"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/EmailVerificationNotificationController.php",
+            "size": 661,
+            "hash": "5c6ec943c7de7133022d2cd049c7db9d9788430860d79c670e6dbe00f8c9db46"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/EmailVerificationPromptController.php",
+            "size": 595,
+            "hash": "c4f0e648958cb22bd7350e7bed67989664366688dfd71fb1f3ec33c42b784921"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/NewPasswordController.php",
+            "size": 2188,
+            "hash": "fb639cf4ba91c761f4ab5bc2541d80d59e2677ae7e719a4b40d4300ddfd30222"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/PasswordController.php",
+            "size": 795,
+            "hash": "81f68e0aa74f66038082364499dde9a1b1d93ca961448bd8b46bc77aa17117fd"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/PasswordResetLinkController.php",
+            "size": 1656,
+            "hash": "317345d4c1801c9e17fed64c87da754dc475f3bb5bb7022318b59835487e23d0"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/RegisteredUserController.php",
+            "size": 1351,
+            "hash": "ff32cca9c89e83eedd635380bd3f7cd814f2976cff76aafd083d240437eabcf9"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/Auth/VerifyEmailController.php",
+            "size": 822,
+            "hash": "a9326c0f602d7afc06f616492fb6a8d9229b54253bbf04cfdc1b41cf1764f0c6"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/site/PageController.php",
+            "size": 5043,
+            "hash": "5225c3a725a835624675f8fd679d7f479a0d510c107fdd38a938afd8d9f7fb37"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/AccountController.php",
+            "size": 20101,
+            "hash": "a0fc280fadc72bed948bd20f9b8ea1e473c3151c0eec854d47bb8872cec67e95"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/AppointmentController.php",
+            "size": 19074,
+            "hash": "e342f970398fce9d2c85c6affb024d1f185491e79ba16433604516766ce43514"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/AuthenticationController.php",
+            "size": 3075,
+            "hash": "38242c00a71b7b818501f9e1ae9646db2624f3610298d91e0d42b979c902adbe"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CarouselController.php",
+            "size": 3181,
+            "hash": "9d05866a49ba45c301680f5c8efeb39ab12c0c12d639342c322dc7d70aaf1f40"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CartController.php",
+            "size": 7318,
+            "hash": "f40085f39ff45f432a66b6417f3f4034b99e6c68c15ff6a1f35ce4df5c6e5e0e"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CategoryController.php",
+            "size": 2629,
+            "hash": "cda7026821823771d813fe9aecf87a0881c3cae7fc2d114d2747dd967c8774d9"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ClientCategoryController.php",
+            "size": 2680,
+            "hash": "47af7da40b7bf18703e731d258821790fdc0aeca3982d9b827363a6093cd7367"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ClientController.php",
+            "size": 3445,
+            "hash": "43d77a0a1aae260a577a1f73ff4e0bcd363ac6b14abe8edf11c0afeb4972986f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CompanyController.php",
+            "size": 2595,
+            "hash": "75ff11696e36c3a136f338ff3f2aa12666bd1c68b4e19ca72f52a03c1ec86b12"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ConsultationFileController.php",
+            "size": 3789,
+            "hash": "916b2d30bff8408b89532b0b41946a4645bb5d28a7d5820d63544592d09d1e0b"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ContactsController.php",
+            "size": 813,
+            "hash": "76152e10dde468a7a083d723fde3af6fdac036405f64d37e4c39a7b19408a641"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CountryController.php",
+            "size": 3340,
+            "hash": "f1c9f62ff0b2a65c9e3782941b50b033d7c0a5fdd6d10c0657658b7a2e37ede0"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CouponController.php",
+            "size": 3255,
+            "hash": "7e5164ad988498eaf3f9ead9a3e8cf75badc4533ab08204b81998dafd36c289d"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/CustomerController.php",
+            "size": 6957,
+            "hash": "6d1c439780ec44bbad29c06c7989f9d3e4469a7571a8082dba9dfc6be5e77824"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/DashboardController.php",
+            "size": 401,
+            "hash": "690906b87e4cd34d52d7db0c257a38ef1aec515cdf396e5646c3cb7e9f90fead"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/DisclaimerController.php",
+            "size": 863,
+            "hash": "762dbe4f8b8af6e7aa0d39189a0585a63d32aeca5076f73d795c07d5530e4a26"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/DoctorController.php",
+            "size": 21338,
+            "hash": "de88edb508afbd7dfdc34aef7559fea99e950f8091bf38e483bf690e3e85e05b"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/EmailContactController.php",
+            "size": 504,
+            "hash": "bb804fee0e1d5c70ce5c81201935799b238a803ea785fbd22a2d4d7430284277"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/FaqController.php",
+            "size": 2306,
+            "hash": "b0aeb92f7ab513949b94bf3c8daa6aebc26335652dc31d99f880b9a3b44d8c6f"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ConsultationController.php",
+            "size": 32916,
+            "hash": "af5f5f7e1a568e381f0136fec44c290342f88b87c6e2a76ad21eb212114cd655"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/HowWeWorkController.php",
+            "size": 836,
+            "hash": "40e78acc1a3f58aafa86835a585cc8fb9df7f7f7cb02023ff2680ce45293806d"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/NewsController.php",
+            "size": 3200,
+            "hash": "f281f55d40cb799e7755183b325f65770d6a6d019e3c3b22c01cc53b0d8a6f2b"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/NotificationController.php",
+            "size": 2692,
+            "hash": "cdc86e85737a5cda42c22150463ddd045bccdfcf7aecdff112be833b0ff771be"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/FileUploaderController.php",
+            "size": 46481,
+            "hash": "820fb7c44b4f9e8e5978a69293eaa8d3e3324f2a228063caa1d5b9df300be2c8"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/OrderController.php",
+            "size": 5742,
+            "hash": "0c4d236fc35bf30d2e83c2d0d6e8af74fc8bfa181753434c1c399e1321b2f828"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PageController.php",
+            "size": 15230,
+            "hash": "453f49296052973e7c030f6e973a71750587375d0ceea213ae32600b72a13688"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PartnerController.php",
+            "size": 2450,
+            "hash": "3b8c31b4da7a910ee429a6033ea69d955cdf9a1e660b00ddc536fbae9d43819d"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PatientController.php",
+            "size": 15126,
+            "hash": "2b4c4b46d5453267ca5c8ad0149f41a1c2ac3898808f83b8136117cb77ceb7bb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PaymentController.php",
+            "size": 16019,
+            "hash": "f40c9683e865083979bcccebf57f6fee3fc09cf73a9e4d94fa7230a797974930"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PortfolioCategoryController.php",
+            "size": 3206,
+            "hash": "91583c2e8cedbc4520dfbc7dd62c56bd1ffbe09f8a6000e0ca57dcd80cb8b067"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PortfolioController.php",
+            "size": 3008,
+            "hash": "f07428f28e43fda48153407374937c0ba8e964db8675db0cb4724ff6f18cbd84"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/PrivacyPolicyController.php",
+            "size": 891,
+            "hash": "5b8e1a9a9a39b6233cb99253b2081eedf8c8aafc492aa44f15161626b4c44b02"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/RefundPolicyController.php",
+            "size": 875,
+            "hash": "cb7945dee40a78719f901933491911dbc6278fc0f42106bb57b3b07d8ff2dc37"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ServiceController.php",
+            "size": 4154,
+            "hash": "4f790031e90826e63ac2451374e8d44ac54373197632db3ffc7e2adc5854da03"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/SettingController.php",
+            "size": 1825,
+            "hash": "1508c212e4ecf76eb9a145f0e53afa7161ffc4890418cb2d25e54c003a96b0fe"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/ProductController.php",
+            "size": 3319,
+            "hash": "b265878f7b84f54b2d0b89b3571f1d13599b509034f9d0eebc945d24c8961b16"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/SpecialtyController.php",
+            "size": 3348,
+            "hash": "ae5fcc555d3d92fa8bdb128b3403e362736c4e578ca102bace81d9d50fef2add"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/TermsAndConditionsController.php",
+            "size": 662,
+            "hash": "061e1bdf94f993985938ae5e9f11aaacf8eb4a17d7240fb27c43d7c1227710fc"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/TermsConditionsController.php",
+            "size": 936,
+            "hash": "343dca23c53176dafb7e5434b407f9f623c7e8b9d2d61291a30611ff9d4ea420"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/TimezoneController.php",
+            "size": 2061,
+            "hash": "ad12fedbf3fcdd0a416cfec3218db225540562915e78133e2449b68d3e1b0807"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/UsageConditionsController.php",
+            "size": 900,
+            "hash": "83dd5e69da588c807e58a828764f397cc2c1929a47566751fff23b6ee8866cfb"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/UserController.php",
+            "size": 3661,
+            "hash": "ad7462d0adb22d243b561bd163b236cb194c94721862bfd3eb94a78d03a5b932"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/VideoController.php",
+            "size": 2586,
+            "hash": "844484635837c383acad5ec4af39bdec07b9e33a186d87ac867d71406efa44a1"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Controllers/dashboard/WhousController.php",
+            "size": 825,
+            "hash": "7a8ce7673014f6a8003f7bd332557ed2680ad6321bc2dfd98c6ea11bcd553943"
+        },
+        {
+            "type": "file",
+            "name": "bh/app/Http/Requests/Auth/LoginRequest.php",
+            "size": 2215,
+            "hash": "a638833a2a42b2a500fc239abd91efdebbc2d134f7d73483fff50b8678c7c388"
+        },
+        {
+            "type": "file",
+            "name": "bh/public/vendor/myfatoorah/css/style.css",
+            "size": 4480,
+            "hash": "8b2e2fd3e8b6800c63888b663c8b4c6b2885b36e236c036830389d7376f91322"
+        },
+        {
+            "type": "file",
+            "name": "bh/public/vendor/myfatoorah/js/checkout.js",
+            "size": 1159,
+            "hash": "b7a1c1ca9cc20c47891028631b5797fe06d8b82083acdebfcca78d20e927ff28"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/admins/create.blade.php",
+            "size": 3045,
+            "hash": "86ab9f0553901f7a1e7479128e8e49065ace191f45663bf6f6977f3f6be6dc0a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/admins/edit.blade.php",
+            "size": 4223,
+            "hash": "ff95af350cbb64a2367e5f19fe88d0140ff39e25fe21ab99e4849361aabf7b4b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/admins/index.blade.php",
+            "size": 7948,
+            "hash": "cfcd43957acd39f65021b993cc74848f121ca74655c896fad7d9d49f8a7f1349"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/auth/login.blade.php",
+            "size": 4128,
+            "hash": "14ac3bf29d74ab5950bd294c2c197643994cafa045d0fcbad900771dc5cf3234"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/auth/register.blade.php",
+            "size": 2350,
+            "hash": "e068957863d56a04b68da1a81b7422be39cdb6a2c33c9ff0c5f62c1cd614dff6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/carousels/create.blade.php",
+            "size": 3075,
+            "hash": "32af9259e3136846eaaccf5bb77e107a1f0e3cea3596657e5b2c981b587c6e4f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/carousels/edit.blade.php",
+            "size": 3368,
+            "hash": "91e38dcd89b309794825dff745f049258dc1c1bae9a4d20d11958fe2f125a771"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/carousels/index.blade.php",
+            "size": 6615,
+            "hash": "cfac82fa4e3c34ed668273d6f3fd8ccf78651bf16b663c78a0084a1623c97078"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/create.blade.php",
+            "size": 63582,
+            "hash": "1515541a97a488c84c360a8045c9d49b34350350434d00d95690dc3104b9381a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/edit.blade.php",
+            "size": 5888,
+            "hash": "f702f1d222ccc078f2d1d86e96bf17d5077f8983b3b5f1cf7f31520ccc6c5ca5"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/show_all.blade.php",
+            "size": 16627,
+            "hash": "ee4b17ec4991cf1326b38625c5dba6dc2b91f93f6cace27aeefe615351cd2672"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/show_files.blade.php",
+            "size": 5897,
+            "hash": "e3049b7e3305b275d4ddb2064c46b6ec4e53fcfa4aac6f592d87cbb80fb692fa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/show_report.blade.php",
+            "size": 6283,
+            "hash": "041fbc209bf6617c9f18addf706896acd4aaebd6072d4679595c8a60afc9c7dc"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/consultations/index.blade.php",
+            "size": 12575,
+            "hash": "fb5bdfdd933d83dc8507cd69cc90104aec81da733aaea8d99fe3dad4ff105f0c"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/countries/create.blade.php",
+            "size": 2615,
+            "hash": "acfb0a8ba36b544512489549f72b2589548b362416d4abc87541eecc9d36022d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/countries/edit.blade.php",
+            "size": 2945,
+            "hash": "337b37a229e904fc0b6a1bc4b3360f4bfd45c949f0e113554c18aceede6baa42"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/contacts/edit.blade.php",
+            "size": 9292,
+            "hash": "3ca25ef8834694b0041cf26b16ac32a246385cf6f5daddd5f69819f7c9473c98"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/countries/index.blade.php",
+            "size": 7923,
+            "hash": "bd32a58d009ea33a956830c8d967dbb3a1616ec43301eb3992d900ef45a08f2e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/coupons/create.blade.php",
+            "size": 1970,
+            "hash": "c6a5a5714292e3020a8a95e7dc45a29384ef8068f1ae7ccc5518c68744ea010c"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/coupons/edit.blade.php",
+            "size": 2451,
+            "hash": "44aba54ed20c479ed4b311c9f6e72a04ceabb383b05f0a2184b82683c9d293f6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/coupons/index.blade.php",
+            "size": 6317,
+            "hash": "3c1696d77ba9d31b868acc2c0c4a5513df5d6f32f1e9b1390ead7b69bcc12c2d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/disclaimer/edit.blade.php",
+            "size": 1781,
+            "hash": "3c2b37a67c228e439a48fec09098c8f19fa6f741d2c27bc48649a531bcd2363b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/doctors/create.blade.php",
+            "size": 18136,
+            "hash": "9594beefe2f468a2baa808f49b85a529751426a20f4cc762b03baba44d59145b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/doctors/edit.blade.php",
+            "size": 23096,
+            "hash": "47341179b1845bea46212f15c434636352c711e753c2ee40864686ece2ab8a34"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/doctors/index.blade.php",
+            "size": 9859,
+            "hash": "d6df62664fbbfa086b95be38768c79aa5fa6a89186575e078cb70187a527c4b8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/doctors/show_all.blade.php",
+            "size": 16627,
+            "hash": "ee4b17ec4991cf1326b38625c5dba6dc2b91f93f6cace27aeefe615351cd2672"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/how_we_work/edit.blade.php",
+            "size": 2905,
+            "hash": "fde492bdd51f9be559f58ff91acb93aee5e6b28506a705f37452800aa6c68a91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/patients/create.blade.php",
+            "size": 63580,
+            "hash": "d4439a61d3ccf9b3d858be04369a15ea2432bc6065835281fe405b04d5a07e37"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/patients/edit.blade.php",
+            "size": 12311,
+            "hash": "90115174cccdfe17e823c0e7ead2e4c6ca05d7734c890446b2b33f931e5b6d08"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/patients/index.blade.php",
+            "size": 8702,
+            "hash": "d2e195388f7aa8183b87681add4d9cae87dd088ca8edc2a5c72605292e567fb8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/patients/show_all.blade.php",
+            "size": 16627,
+            "hash": "ee4b17ec4991cf1326b38625c5dba6dc2b91f93f6cace27aeefe615351cd2672"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/refund_policy/edit.blade.php",
+            "size": 8074,
+            "hash": "ba70c564612f496fcdea08f18f3399c89eb267e8a19fd6e00913b7cf0d809939"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/services/create.blade.php",
+            "size": 7312,
+            "hash": "4f2326711fb7cdb17da88d91f6abe55e21c7cac4442da3a76e2a5fed52fbcad0"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/services/edit.blade.php",
+            "size": 4291,
+            "hash": "9e4d23446da6afa9cd2217b0977f155fc5f356bd0eef02ebd6146c1bb4ee4675"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/privacy_policy/edit.blade.php",
+            "size": 8078,
+            "hash": "eb0a340e61e3f333065c9db5605e83f6ec1be5a0e3b1cdc271106d8020dc70db"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/services/index.blade.php",
+            "size": 6619,
+            "hash": "0b4ebea5eadf27fe4ae6e71781ee2bfa39954e2d3e0c1816315ce9d9a297b820"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/settings/edit.blade.php",
+            "size": 4333,
+            "hash": "b08812c944d2aeb14fe6b7160be86ec2fdb0e3be1e406b919133e28b2c46d19f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/specialties/index.blade.php",
+            "size": 7068,
+            "hash": "a05fb84a544e7555d367d0f2b375b4d1b927f0ad5351b5531f68b4f2a7b5b540"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/terms_conditions/edit.blade.php",
+            "size": 8312,
+            "hash": "ad0b2407ebbdce0c4c19f0b0d6088aff5c812a7aea85820db9bb32f3a0ffda1c"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/specialties/create.blade.php",
+            "size": 3278,
+            "hash": "337d63019093025abe9b1dde88c254c0b472d8f0ebcfbd3a88f049704815c267"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/specialties/edit.blade.php",
+            "size": 3672,
+            "hash": "68a65bfc0ec488aa6ba888e195a6a416a2d98f01926ae8a9f8ba6d6db702959b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/timezones/create.blade.php",
+            "size": 2263,
+            "hash": "5760931994a8306b5862d98bbd8c8759244426c9d298b993f62bc6f6c58bbc23"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/timezones/edit.blade.php",
+            "size": 2349,
+            "hash": "809cd36d9de502054f5061276a11af754e815cd0ff06be347300b52ffc05c27f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/timezones/index.blade.php",
+            "size": 6402,
+            "hash": "05bfaa3ec3d3e78ed8ec44701031f792fb820b3d4944d895594bf7a52df409d2"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/whous/edit.blade.php",
+            "size": 3471,
+            "hash": "6f7cba5bdc6d3310d39428b304b5329d27d68655d7a383908283c983708ffefe"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/videos/edit.blade.php",
+            "size": 7373,
+            "hash": "25f2f1d773eaf4aa7c26a0ec4614ba61df76bfca21f4381dadbde31b7c11a658"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/admins/usage_conditions/edit.blade.php",
+            "size": 8159,
+            "hash": "b637a958460d9b355e3bc9dd631fcd0c269c3ffe72051dec263f3ea7ee0f8266"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/carousels/create.blade.php",
+            "size": 3022,
+            "hash": "d1b3b9efb0cabe93c336ee4ea40dadddaa031c7ec1ccc86881bd41a3e4bcf82d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/carousels/edit.blade.php",
+            "size": 3336,
+            "hash": "ed34f96da5267a93193a60a8bd52cb09df4c6d6e0affd2caf03ceb765985a7bc"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/carousels/index.blade.php",
+            "size": 3249,
+            "hash": "6ebdaa6b1536e879c00b38923cefc71169a24407db59cad02f115c7e183460d6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/customers/create.blade.php",
+            "size": 63582,
+            "hash": "1515541a97a488c84c360a8045c9d49b34350350434d00d95690dc3104b9381a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/customers/edit.blade.php",
+            "size": 47554,
+            "hash": "c9a8bf9f3b3c6d02d80eba9fba1518bd6db5b35d50de0841b39d1e33722d4a9d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/customers/index.blade.php",
+            "size": 7846,
+            "hash": "38a7ff4164d2a806cae4a6a4c152ae2e9b1578ce0b064ed686b6fa65673d8b37"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/customers/show_all.blade.php",
+            "size": 16627,
+            "hash": "ee4b17ec4991cf1326b38625c5dba6dc2b91f93f6cace27aeefe615351cd2672"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/companies/create.blade.php",
+            "size": 2912,
+            "hash": "23135e1b64b4180c19a77b0f56d69ae037ce1a27e0880fb2f174c4cca5e0f3c3"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/companies/edit.blade.php",
+            "size": 3370,
+            "hash": "8aacfa6a9720c378486ffc02a4cbf7ab5dabec22211c985a97bd632c1c52c742"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/companies/index.blade.php",
+            "size": 3231,
+            "hash": "25b02daa772a04a7f8d7f7dbecb377be9cac42ae66ce95181979252c2583e88c"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/orders/index.blade.php",
+            "size": 6864,
+            "hash": "21a931b49484db917c2ed18ba95f8911608235f12270e8a2d85cc5ea07235c89"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/orders/show_all.blade.php",
+            "size": 16627,
+            "hash": "ee4b17ec4991cf1326b38625c5dba6dc2b91f93f6cace27aeefe615351cd2672"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/orders/create.blade.php",
+            "size": 63582,
+            "hash": "1515541a97a488c84c360a8045c9d49b34350350434d00d95690dc3104b9381a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/products/create.blade.php",
+            "size": 5346,
+            "hash": "f5e0b4861537992c60075e21480c21ba97cc935c8a9b8b20556bc94f1a5bfade"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/products/edit.blade.php",
+            "size": 6205,
+            "hash": "7342ebb6b9d16160c92a29b94238c65b64c87643237fd2830d572ec634471966"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/orders/edit.blade.php",
+            "size": 47554,
+            "hash": "c9a8bf9f3b3c6d02d80eba9fba1518bd6db5b35d50de0841b39d1e33722d4a9d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/products/index.blade.php",
+            "size": 3824,
+            "hash": "4e4126b2884d259ec35dfb9b9249c9b727a12530d3737bc85bb6eb5638399681"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/payments/create.blade.php",
+            "size": 11447,
+            "hash": "4aa384fefa92d04904ac7b1bdf3d76ece10211ff754e3175471131bf04701a90"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/payments/edit.blade.php",
+            "size": 13681,
+            "hash": "20ec8306f2442a07e2ecf9de20dfe5e7890c60129f0a44d3ea923fedefc27448"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/payments/index.blade.php",
+            "size": 12662,
+            "hash": "05593a4c5f14497de0172fa8a997aeaa1e4c7f37aafef8290a7413bb9f3eb59f"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/reports/accounts"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/countries.blade.php",
+            "size": 942,
+            "hash": "6146037d7e50fe0e2829457d482c186521cb7ea682b4b470cd2817543fd93d7b"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/dashboard/reports/drivers"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/drivers_shipment_count.blade.php",
+            "size": 942,
+            "hash": "6146037d7e50fe0e2829457d482c186521cb7ea682b4b470cd2817543fd93d7b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/sales.blade.php",
+            "size": 5072,
+            "hash": "1cac28337c415aef3482d7cd3727e24aa3d15ee935fe3184bed4c93d636409b6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/shipments_count.blade.php",
+            "size": 4947,
+            "hash": "876b3976de7e95ea6237d86a67dc418f3b930a1b52ddbb0a9ecbf70358ef7bbf"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/stores/create.blade.php",
+            "size": 27271,
+            "hash": "e30a3457ee9bca8a44a35b89583f2fa820432714589eb0c0ec97bb6bd7462fa7"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/stores/edit.blade.php",
+            "size": 46985,
+            "hash": "f301c4cef4b1cc7f88b3b89dce99802d21dee3c35d26f46572405f27608a5195"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/stores/index.blade.php",
+            "size": 3525,
+            "hash": "9b227ad3894521dd8571a7822593c3524dfe7519be776780201e5b143bf77e08"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/users/create.blade.php",
+            "size": 3466,
+            "hash": "d0458ac900d7aba7d170fca87e8856aab5a83bb71e9a2da68dd8a8fddeef25cf"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/users/index.blade.php",
+            "size": 4568,
+            "hash": "b299870714993c3ad387f53f7f942f5d0f572578464a6a525a244e042da8ce6e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/users/edit.blade.php",
+            "size": 4235,
+            "hash": "015d654391b00ba990d50fe21900f43b9409ea5386ca47439a156b62fb659da8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/breadcrumb.blade.php",
+            "size": 1,
+            "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/footer.blade.php",
+            "size": 5644,
+            "hash": "baac54f39149c676c2387ff69bd9acde5bbb0fa19c352d7ec88256e7581d5dd6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/content.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/head.blade.php",
+            "size": 3456,
+            "hash": "904a0bac85fa115ba675e2962369fb6a6d9b1435e37a5a0216fbff97445070aa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/master.blade.php",
+            "size": 2184,
+            "hash": "f539af9d9425e6136fec9cf30ee1c12bfdda9295227322d7c663db6c80cbc431"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/modal.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/myjs.blade.php",
+            "size": 2298,
+            "hash": "1288fce749b249be478691cddb00a8c100e775aa38474204f0ba906c95cfd38f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/sidebar.blade.php",
+            "size": 12082,
+            "hash": "eb3c5c8e26aecb4fd4fc020a2964fb22928b8981e635391f9ac0da26635d2188"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/admin/navbar.blade.php",
+            "size": 4720,
+            "hash": "d9ee152d059d0bea7616e3b65fd55d6db4c32b4b2656ca6352fd62b7b45e4f33"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/breadcrumb.blade.php",
+            "size": 1,
+            "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/content.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/footer.blade.php",
+            "size": 4591,
+            "hash": "633922d253ac69e950832b6de9f52f87abd9fa6f74452b42dc734cf122885994"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/head.blade.php",
+            "size": 3456,
+            "hash": "904a0bac85fa115ba675e2962369fb6a6d9b1435e37a5a0216fbff97445070aa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/master.blade.php",
+            "size": 2204,
+            "hash": "74a6da14bc94af9a89c9e612f2b7be4ba9319659dd2047d764910c72e3fbc460"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/modal.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/myjs.blade.php",
+            "size": 2298,
+            "hash": "1288fce749b249be478691cddb00a8c100e775aa38474204f0ba906c95cfd38f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/navbar.blade.php",
+            "size": 12791,
+            "hash": "1aeff8a1aa91fe58411aa91de49e32e03e249efab45524bcba47359021e2990e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/dashboard/sidebar.blade.php",
+            "size": 10419,
+            "hash": "b3af85d409e9136bbbc4bea9d4b76d0078a6155990233f006b5fa601db1e15bd"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/breadcrumb.blade.php",
+            "size": 1,
+            "hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/footer.blade.php",
+            "size": 4592,
+            "hash": "1e7e3c796727d7cda6d14d8b0666a1eea59a9a919d3529cd325d9f925b790507"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/head.blade.php",
+            "size": 3456,
+            "hash": "904a0bac85fa115ba675e2962369fb6a6d9b1435e37a5a0216fbff97445070aa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/content.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/master.blade.php",
+            "size": 2189,
+            "hash": "0850dcc6b30708f8f479e7ec4f5d75e3f529e99f5a7bd14c976acdfbc3e83662"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/modal.blade.php",
+            "size": 749,
+            "hash": "553a6ae230364b852838f0c8b5bdcb3e08b13d098c6bdc5a08814a213479fc91"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/myjs.blade.php",
+            "size": 2298,
+            "hash": "1288fce749b249be478691cddb00a8c100e775aa38474204f0ba906c95cfd38f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/navbar.blade.php",
+            "size": 4714,
+            "hash": "6256ee386296b8ad20231bbfb4ea8bdbb652e11a947e2a483a3833fda02f796e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/doctor/sidebar.blade.php",
+            "size": 9995,
+            "hash": "ad1295bcd7ccffe5a5d6737ee7ec5bdee143f889c0bb5a942ea8744ab5f6af49"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/carousel1.blade.php",
+            "size": 3498,
+            "hash": "e9b9e3de3f7944c39ccc46b7eae9b23872fef712f8624790c589cf8772918c46"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/footer.blade.php",
+            "size": 10788,
+            "hash": "b9d918170a3fab8ba6e36d01066781a69ce187392681dc354b461627e644623a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/head.blade.php",
+            "size": 2679,
+            "hash": "0fdf79f2fbe7f5b811bf9f4ea8b7a592434d06fdf90c7f0ce889dd36e8ac35e8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/master.blade.php",
+            "size": 1060,
+            "hash": "a0ada9a9c3fe4163a5d5546ee2aee90f8a8ff76f9131cbe911426853efeeb7c4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/navbar.blade.php",
+            "size": 24267,
+            "hash": "0082613174b96785d65182964abed07ab2c5e3db461c42acaccc20124bf4884a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/searchbar.blade.php",
+            "size": 5448,
+            "hash": "6be081d306bdc28219216609407984ab6d0f8dca0400de4b20fae883d8537fef"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/sidebar.blade.php",
+            "size": 8937,
+            "hash": "47d9b2f652ca69578d7ec0accea4b51de8c641dd089dd75e6d135d2a662ebe0f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/zzz_carousel1.blade.php",
+            "size": 3498,
+            "hash": "e9b9e3de3f7944c39ccc46b7eae9b23872fef712f8624790c589cf8772918c46"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/layouts/site/topbar.blade.php",
+            "size": 432,
+            "hash": "c89fc37379cd9829a80c34a0ccd07d08b906148aabcc519457546be1624d3085"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/includes/sectionApplePay.blade.php",
+            "size": 610,
+            "hash": "b358e6681229e62288eee12c956a80a39b1f1793c8689e7fef719c035b99ffb3"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/includes/sectionCards.blade.php",
+            "size": 774,
+            "hash": "6ae674c0ef223d2fcc1e758ee622a88b0e755d9d08855790f1349ea39d6c3353"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/includes/sectionForm.blade.php",
+            "size": 2814,
+            "hash": "414d3bbb82ece01113a58111c3e13bad96e2e748b30eabfcbfd215d0009a9288"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/myfatoorah/includes/sectionGooglePay.blade.php",
+            "size": 690,
+            "hash": "57439acb238b3f3b2cd252eb46f0b97ea3f8c7b1d1ee34e6905782a1f3b21ed6"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/carousel2.blade.php",
+            "size": 2946,
+            "hash": "ed51010edfafdfba066dd59b02b3d2e3599c4a3d1a90ba5fc09837493a036993"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/categories.blade.php",
+            "size": 2025,
+            "hash": "8dbc2891d9af97c857c46eaeac1d3057e919e80b57ae27258a1a7c6df9ef84a2"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/carousel1.blade.php",
+            "size": 3429,
+            "hash": "0950be75cc2642aceea10346d16d398754aea00d740e50f6e613ee4a8fba10a4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/last_articles.blade.php",
+            "size": 2578,
+            "hash": "7ec61ca4df78d36ca687719c5786ee55f02da28e50bb364f1c4a026088192f14"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/partners.blade.php",
+            "size": 1687,
+            "hash": "34c690b8823982491e6e5c9337193c353b89ba6ee2ee0cb7d5736f1890f9c323"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/services.blade.php",
+            "size": 2972,
+            "hash": "a31988073fb9a92833bf0ff933a428683cf8c8950bddb0672734c0fa389deea1"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/uploaded_files.blade.php",
+            "size": 12207,
+            "hash": "0420f2792e3069e6beb897495d8d6b7c2ec17f45536a58050748add6e9d701f9"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/partials/site/video.blade.php",
+            "size": 580,
+            "hash": "94a87e174caef62ff7ce75d394433ad52768230c3707f3b4a9c4e36331dd44d2"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/profile/partials/delete-user-form.blade.php",
+            "size": 2140,
+            "hash": "37ce3e90347ce6d5bdf071c5fe877978bd3b37be91a1f049e8bdd1720e5ba9bb"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/profile/partials/update-password-form.blade.php",
+            "size": 2022,
+            "hash": "ad9ed4a053ea096f4491cb87ac1ef9010304971eeb35800cecd7a0aaccde3649"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/profile/partials/update-profile-information-form.blade.php",
+            "size": 2674,
+            "hash": "bb9a00ce8885915857508106b5451ff69a809c09d05c8bf5ac6752f1e4e3d58f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/appointments/choose_five_dates.blade.php",
+            "size": 3412,
+            "hash": "19d6ea537b82e431c8558844ed0692a64d736cd927e3e56e5797db0ff41aa75f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/appointments/choose_five_dates_modal.blade.php",
+            "size": 2327,
+            "hash": "1206a4fda5dccd6f6fad3e08aa58e33111cf024c1e7287b9372e9cd84c0ea8f8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/appointments/z_create.blade.php",
+            "size": 3747,
+            "hash": "2aca88abf08459e8914c843cf9eddcd297a70802c93fe70ffcfc4a8fd8814f62"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/appointments/choose_one_by_patient.blade.php",
+            "size": 2785,
+            "hash": "691f98a2965392a61700155d993b4e4a2a8dc2a131da207706386bb2f4739524"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/appointments/z_edit.blade.php",
+            "size": 11227,
+            "hash": "13a347bdecbe6988441e1ee2486b60b5743f5384e49ce426be85bdb64596daf1"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/consultations/create_report.blade.php",
+            "size": 8772,
+            "hash": "e7c0b54988a2ef76dbca44484a464340995728d8bdc23469eb8b3bfaf29e0378"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/consultations/show_doctor_closed_consultations.blade.php",
+            "size": 4302,
+            "hash": "d041003b4c317eb9d29cc5097ddf18f43ef3b15e5db519d31c6a39a68f658c57"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/consultations/show_doctor_open_consultations.blade.php",
+            "size": 4295,
+            "hash": "344960ef31b5ad8d15479e335217c46532cdd506ff2d73a033cc0aef2a678d3b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/consultations/show_open.blade.php",
+            "size": 1177,
+            "hash": "be420bfab26e8cf5356e296e051170be7d18c2ad02f8d208967de8901c9a8b6e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/customers/create.blade.php",
+            "size": 12139,
+            "hash": "6f5ebb0402762265334ee445f620a13706f2a17eba61689f6cb174870baac870"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/customers/edit.blade.php",
+            "size": 11237,
+            "hash": "8033d101a995b3bb9c1ef7bcd97cf775c6478f14661af2ff867b9ceb16d1948f"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/doctors/appointments"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/create.blade.php",
+            "size": 10315,
+            "hash": "71a9359e0e014f60fb9ad540b770dea8ef4bd71d5a66ff8d36bff3b71a74d4ee"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/doctors/consultations"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/edit.blade.php",
+            "size": 11519,
+            "hash": "0fc1bc3d01d74dd5bad09e2686889fb22e6798376a514cefcf70cc98ce46a298"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/forgot.blade.php",
+            "size": 1704,
+            "hash": "b84653b86ba1b599d037668269ec949e7e0e9683145b12efa461d6cbdb582af9"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/login.blade.php",
+            "size": 2476,
+            "hash": "c64a3ba56f17a0df540bbe151805ab2c485d41f314eb46ac9d151451ace05f2f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/reset.blade.php",
+            "size": 2895,
+            "hash": "8f5fb499a85a9611e8b18755e09687338307e7fb706d3b4b4b5ddab3d551417a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/show.blade.php",
+            "size": 1686,
+            "hash": "ccbc8bdc28a24dfa4d065620c14956fba622df16c94806fd5ad699d45d0ca421"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/ask_for_appointment_email.blade.php",
+            "size": 269,
+            "hash": "7600ec6ecd1d05023e35b8588038e7c9a16fcd6a349534abfaa9868118ece8e7"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/ask_for_appointment_to_doctor.blade.php",
+            "size": 15826,
+            "hash": "782babd0c725e3de224f89666ebd7bd927ac444a483b242ea6fecf02c555b72a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/ask_for_appointment_to_patient.blade.php",
+            "size": 15826,
+            "hash": "782babd0c725e3de224f89666ebd7bd927ac444a483b242ea6fecf02c555b72a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/confirm_one_appointment_email.blade.php",
+            "size": 266,
+            "hash": "057a79384d31ac5b24fd12e79bd17678b510789c96b9d4bce5ef790f9d302749"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/consultation_report_email.blade.php",
+            "size": 5476,
+            "hash": "89f0543d845f1cb38a6afeaeef40c27956b29edca7272a7680c1667ffaa19802"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/contact_email.blade.php",
+            "size": 704,
+            "hash": "2c38685c625d0b4980b7245503b3a6fa5dce0c23c1cdc98feaadac0181a26d79"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/create_five_aoopintments_email.blade.php",
+            "size": 323,
+            "hash": "0c6fba9c188ac594e6ab42c1b3e338721c38cb3bfad95b383a9bc9aad5fee48e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/final_appointment_to_doctor.blade.php",
+            "size": 15824,
+            "hash": "d813f94fd81f2970418735aa9af910d280ab34bfe03c2744829e06ba4f24d599"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/final_appointment_to_patient.blade.php",
+            "size": 15824,
+            "hash": "d813f94fd81f2970418735aa9af910d280ab34bfe03c2744829e06ba4f24d599"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/final_report_to_doctor.blade.php",
+            "size": 15819,
+            "hash": "6b6f6bd5e3fd8deca92f70b3dcaf9c66c82ef5555d81c51890a47473fe569405"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/report_email.blade.php",
+            "size": 261,
+            "hash": "4fd9a7bf2e396a5853227037f0e1abb1cf2db70b8505b425a430d44c45104f7a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/set_five_appointments_email.blade.php",
+            "size": 290,
+            "hash": "8a1b7ffb56109c54329a7bcbbd515fcb4fbef06329698bcd60ccd555f9d1064b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/set_five_appointments_to_patient.blade.php",
+            "size": 15840,
+            "hash": "d09c99f95c267e456408942fc40c48082e3f711167299e010c375bc2cd172b43"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/z_ask_for_appointment_email.blade.php",
+            "size": 269,
+            "hash": "7600ec6ecd1d05023e35b8588038e7c9a16fcd6a349534abfaa9868118ece8e7"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/z_confirm_one_appointment_email.blade.php",
+            "size": 266,
+            "hash": "057a79384d31ac5b24fd12e79bd17678b510789c96b9d4bce5ef790f9d302749"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/z_confirm_one_appointment_to_patient.blade.php",
+            "size": 15829,
+            "hash": "47a8ffc4bdaefdc7bd10216afb4796ae6dbe5845eb277923042e043badad5951"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/emails/z_set_five_appointments_email.blade.php",
+            "size": 290,
+            "hash": "8a1b7ffb56109c54329a7bcbbd515fcb4fbef06329698bcd60ccd555f9d1064b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/orders/create.blade.php",
+            "size": 13080,
+            "hash": "d3b1502955b9a3698f1a9cc0cd27c458a8d1af269f2fa8a1f958349ef2128654"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/orders/show_order_details.blade.php",
+            "size": 2115,
+            "hash": "83f632664b7ab7df260991bf133d5b49a3449f4f039537fc41f9427fd5b33324"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/orders/show_my_orders.blade.php",
+            "size": 1545,
+            "hash": "e3e8ed3c5784bd580b9dd2c2004a5875141eb8d30f72a06f8ccef835d7834257"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/patients/appointments"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/site/patients/consultations"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/create.blade.php",
+            "size": 15282,
+            "hash": "7aee01ec361facef7d633d71eb8a80e27a49712f39c9e90ee514564bb25d2677"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/edit.blade.php",
+            "size": 10208,
+            "hash": "19e67cfd80c29f1c9a77c1cc4eca0133bbc059cbc9e8e39f08fa89d600850ec4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/forgot.blade.php",
+            "size": 1707,
+            "hash": "8147357e4c612ea1c5a3a18b8223110405665b0d0b80d2f3e070a0e17adafed9"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/reset.blade.php",
+            "size": 2909,
+            "hash": "6bf0d8c7d7756777c3f66a34686cc8f8c5d734f314523737e428dbe97eeaffaa"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/paypal/index.blade.php",
+            "size": 906,
+            "hash": "0a0b4685769e822cc7439f3611a71af449db85e65c39c722e744b8995c2de795"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/products/create_in_modal.blade.php",
+            "size": 9101,
+            "hash": "c703568d5fecef8a980b1b76f57b43d93399913a0dcc059e420a309ca677f1ed"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/products/create.blade.php",
+            "size": 45857,
+            "hash": "1c8fa2483761a1cabd799f260947a9b851a702e58130eb41ed27d6acc0683a60"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/services/create.blade.php",
+            "size": 8783,
+            "hash": "c8f6fabc63ff2dc1350d23dc6d8a0d84ca1ae29f8d6b91090f5f10cddceab01b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/services/services.blade.php",
+            "size": 7912,
+            "hash": "3a4e58b90b8750db5d9cfe46e1bf5776d0ca900a51af4fe2bfbb04b86abbfa8f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/z_appointments/choose_five_dates.blade.php",
+            "size": 3412,
+            "hash": "19d6ea537b82e431c8558844ed0692a64d736cd927e3e56e5797db0ff41aa75f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/z_appointments/choose_five_dates_modal.blade.php",
+            "size": 2327,
+            "hash": "1206a4fda5dccd6f6fad3e08aa58e33111cf024c1e7287b9372e9cd84c0ea8f8"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/z_appointments/choose_one_by_patient.blade.php",
+            "size": 2785,
+            "hash": "691f98a2965392a61700155d993b4e4a2a8dc2a131da207706386bb2f4739524"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/vendor/sweetalert"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/z_doctors/auth"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_doctors/dashboard.blade.php",
+            "size": 16665,
+            "hash": "62324c186686731c843dba82ed9275ac0aa8fd97242a72e098d2d223646c92b0"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_layouts/app.blade.php",
+            "size": 1190,
+            "hash": "310dd9757aa45f7a395d93b7d3927238e4f54fc33141ca90b817680fee67975c"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_layouts/guest.blade.php",
+            "size": 1144,
+            "hash": "59520d16ba2824c0a7586c5792dd57501110663ad233bba2a0e62ab4e500523a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_layouts/navigation.blade.php",
+            "size": 5013,
+            "hash": "0f8148f2771179abb094286e84b5c3b4bd39c8ca1f8cff9788412c5361ef45e5"
+        },
+        {
+            "type": "folder",
+            "name": "bh/resources/views/z/z_vendor/sweetalert"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/accounts/shipments_statistic_for_one_account.blade.php",
+            "size": 5010,
+            "hash": "15e08d3939928ae5a3d1f27bcd13b9413dc8346d57eecec56bfe070cf950b610"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/accounts/show_all.blade.php",
+            "size": 5153,
+            "hash": "15dd0639513a4a4979c207437154a30740a689dd5e79f64bef9b9632ffdb6fd5"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/drivers/shipments_statistic_for_one_driver.blade.php",
+            "size": 5285,
+            "hash": "94a1b0cbefba9225f036869d20d08e5a9b359eb1b83557c151072d5c68e5568f"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/dashboard/reports/drivers/show_all.blade.php",
+            "size": 4263,
+            "hash": "45611cf90bc27815689cff0216de24fe8afb46817074060bb37a4e2fb7402427"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/appointments/create_five_appointments.blade.php",
+            "size": 4021,
+            "hash": "b962666ad01dce7436717c75209e6782cd5dd37e33b479082805c5ebd8bce05a"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/consultations/closed.blade.php",
+            "size": 9467,
+            "hash": "a7dc78ab960cc38306f78a37dc641c2c0006c6cb892c14f6cf68d19e1f3c6138"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/consultations/create_report.blade.php",
+            "size": 14319,
+            "hash": "5ba6cf5c15b1a5e7e97181966f72719605a6b6742bce8c3aac88009869c51443"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/consultations/open.blade.php",
+            "size": 13907,
+            "hash": "fd350a0d520ecf258f6cbc7d270d8405cc4c30754e036245fc757017bb22fd52"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/consultations/show_uploaded_files.blade.php",
+            "size": 1256,
+            "hash": "085cd265411be245f8a41edc57fb32cca6a1a70fb453bd6ca91eb836a6bdddbb"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/doctors/consultations/show_open.blade.php",
+            "size": 1177,
+            "hash": "be420bfab26e8cf5356e296e051170be7d18c2ad02f8d208967de8901c9a8b6e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/appointments/create_choose_one_appointment.blade.php",
+            "size": 11402,
+            "hash": "866966edf6e67a2c001bed041b1790607171d5851abc80177a7d001e9d43d0f4"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/closed.blade.php",
+            "size": 9369,
+            "hash": "3c67bd79bbd8c499ed4fee0fec546d597fb5275cbc6058831ded13fa2433ea68"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/show_open.blade.php",
+            "size": 1177,
+            "hash": "be420bfab26e8cf5356e296e051170be7d18c2ad02f8d208967de8901c9a8b6e"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/show_uploaded_files.blade.php",
+            "size": 42,
+            "hash": "e577c8c77ea65cfb00aa4d72581c6c540323d937f33b356da19a15b8ec0f909b"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/show_report.blade.php",
+            "size": 6344,
+            "hash": "296f7ff36aafb51abdbbecfa5a8f954dec12d2e4d4e663ab0d70004115193da3"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/open.blade.php",
+            "size": 23191,
+            "hash": "d547d702066a93302e37f25b72b7b4ea21ad7a9be80ff38266903830ba1803b3"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/site/patients/consultations/upload_files.blade.php",
+            "size": 24479,
+            "hash": "0b4079279c76670f5366086170e6061e872ae5c93e5f330494d8a71ed68b2016"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/vendor/sweetalert/alert.blade.php",
+            "size": 1622,
+            "hash": "d13e25d4946a97b164bbd27ddeaf496163ab5082758a36fb09164d61fbc08a21"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_doctors/auth/login.blade.php",
+            "size": 12222,
+            "hash": "20868117745464ba6ffd51fc4ed07938b2eb33eec1d6e722fbcc3e45d971f75d"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_doctors/auth/register.blade.php",
+            "size": 2253,
+            "hash": "9bb9d4a0609ad0ac77990c6da5ecb098687ec003ae78f893ff5df5182a462f03"
+        },
+        {
+            "type": "file",
+            "name": "bh/resources/views/z/z_vendor/sweetalert/alert.blade.php",
+            "size": 1622,
+            "hash": "d13e25d4946a97b164bbd27ddeaf496163ab5082758a36fb09164d61fbc08a21"
+        }
+    ]
+}
